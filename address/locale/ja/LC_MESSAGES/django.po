@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-13 02:06+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: address/admin.py:12 address/admin.py:59
+msgid "base information"
+msgstr "基本情報"
+
+#: address/admin.py:24 address/admin.py:73
+msgid "geographic information"
+msgstr "地理情報"
+
+#: address/admin.py:50 address/admin.py:108 address/models.py:239
+#: address/models.py:331 address/models.py:368
+msgid "country"
+msgstr "国"
+
+#: address/admin.py:77
+msgid "currency"
+msgstr "通貨"
+
+#: address/apps.py:7 address/models.py:72
+msgid "address"
+msgstr "住所"
+
+#: address/models.py:10
+msgid "apartment name"
+msgstr "建物名・部屋番号"
+
+#: address/models.py:16
+msgid "latitude"
+msgstr "緯度"
+
+#: address/models.py:26 address/models.py:279
+msgid "locality"
+msgstr "市区町村"
+
+#: address/models.py:29
+msgid "longitude"
+msgstr "経度"
+
+#: address/models.py:37
+msgid "apartment name in native language"
+msgstr "建物名・部屋番号（現地表記）"
+
+#: address/models.py:43
+msgid "street address in native language"
+msgstr "番地（現地表記）"
+
+#: address/models.py:49
+msgid "street address"
+msgstr "番地"
+
+#: address/models.py:73
+msgid "addresses"
+msgstr "住所"
+
+#: address/models.py:87 address/models.py:100 address/models.py:113
+#: address/models.py:124
+#, python-brace-format
+msgid "{first_address}, {second_address}"
+msgstr "{second_address} {first_address}"
+
+#: address/models.py:134
+msgid "calling code"
+msgstr "国際電話番号"
+
+#: address/models.py:140
+msgid "capital name"
+msgstr "首都名"
+
+#: address/models.py:146
+msgid "currency code"
+msgstr "通貨コード"
+
+#: address/models.py:153
+msgid "currency name"
+msgstr "通貨名"
+
+#: address/models.py:159
+msgid "currency symbol"
+msgstr "通貨記号"
+
+#: address/models.py:165
+msgid "emoji"
+msgstr "絵文字"
+
+#: address/models.py:195
+msgid "country code (ISO 3166-1 alpha-2)"
+msgstr "国名コード（ISO 3166-1 alpha-2）"
+
+#: address/models.py:202
+msgid "country code (ISO 3166-1 alpha-3)"
+msgstr "国名コード（ISO 3166-1 alpha-3）"
+
+#: address/models.py:208
+msgid "country name"
+msgstr "国名"
+
+#: address/models.py:210
+msgid "country name in native language"
+msgstr "国名（現地表記）"
+
+#: address/models.py:216
+msgid "numeric code (ISO 3166-1 numeric)"
+msgstr "国コード（ISO 3166-1 numeric）"
+
+#: address/models.py:222
+msgid "region name"
+msgstr "リージョン名"
+
+#: address/models.py:224
+msgid "subregion name"
+msgstr "サブリージョン名"
+
+#: address/models.py:230
+msgid "ccTLD (country code top-level domain)"
+msgstr "トップレベルドメイン"
+
+#: address/models.py:240
+msgid "countries"
+msgstr "国"
+
+#: address/models.py:248
+msgid "locality name"
+msgstr "市区町村名"
+
+#: address/models.py:254
+msgid "locality name in native language"
+msgstr "市区町村名（現地表記）"
+
+#: address/models.py:260
+msgid "postal code"
+msgstr "郵便番号"
+
+#: address/models.py:268 address/models.py:350
+msgid "state"
+msgstr "都道府県"
+
+#: address/models.py:280
+msgid "localities"
+msgstr "市区町村"
+
+#: address/models.py:294 address/models.py:312
+#, python-brace-format
+msgid "{locality_name}, {state_name} {postal_code}"
+msgstr "{postal_code} {state_name} {locality_name}"
+
+#: address/models.py:300 address/models.py:318
+#, python-brace-format
+msgid "{locality_name}, {state_name}"
+msgstr "{state_name} {locality_name}"
+
+#: address/models.py:327 address/models.py:364
+msgid "code"
+msgstr "コード"
+
+#: address/models.py:333
+msgid "state name"
+msgstr "都道府県名"
+
+#: address/models.py:335
+msgid "state name in native language"
+msgstr "都道府県名（現地表記）"
+
+#: address/models.py:340
+msgid "type"
+msgstr "タイプ"
+
+#: address/models.py:351
+msgid "states"
+msgstr "都道府県"
+
+#: address/models.py:359
+msgid "abbreviation"
+msgstr "略称"
+
+#: address/models.py:371
+msgid "utc offset (sec)"
+msgstr "UTC 時差（秒）"
+
+#: address/models.py:377
+msgid "utc offset name"
+msgstr "UTC 時差"
+
+#: address/models.py:383
+msgid "timezone name"
+msgstr "タイムゾーン名"
+
+#: address/models.py:393
+msgid "timezone"
+msgstr "タイムゾーン"
+
+#: address/models.py:394
+msgid "timezones"
+msgstr "タイムゾーン"

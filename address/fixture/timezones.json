@@ -1,0 +1,6422 @@
+[
+  {
+    "model": "address.timezone",
+    "pk": "012e6d46-fef1-4c4b-ae29-e89e913d51db",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Niamey",
+      "country": "d07d2991-ca76-4c12-b6f7-c38ce2bae1e5",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0162234a-0cf3-4832-af8a-10dbe4ae8dd7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "LINT",
+      "code": "Pacific/Kiritimati",
+      "country": "27241636-33e3-4a66-ac9f-9d4f87422642",
+      "utc_offset": 50400,
+      "utc_offset_name": "UTC+14:00",
+      "name": "Line Islands Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0216cfec-043d-4287-ab73-d2ca6ad00a31",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "IST",
+      "code": "Asia/Kolkata",
+      "country": "1d8ffce9-ec31-4448-8f2b-b12009bc3fb5",
+      "utc_offset": 19800,
+      "utc_offset_name": "UTC+05:30",
+      "name": "Indian Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "025c4333-a50d-4f6d-8f5d-6b6dd4daae37",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/San_Luis",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "02d3f891-7f82-43a9-9348-5204d56d9bf6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/North_Dakota/New_Salem",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "03533b0a-602c-4e2d-8c22-651f6ca8ae58",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Tucuman",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0363b549-1227-4726-b12d-b9e4793a0657",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AQTT",
+      "code": "Asia/Aqtau",
+      "country": "77e4c700-1dfd-4f74-ae5f-8954a8ae9fe4",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Aqtobe Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "03d90489-5cf4-49f9-9773-6c1626043989",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BDT",
+      "code": "Asia/Dhaka",
+      "country": "3a6508e4-e7e2-460a-8d84-8f37f106f667",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "Bangladesh Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "05206475-1b05-47a5-ab1d-4ec92e4a8731",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/North_Dakota/Beulah",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "052fdd77-ec59-4688-8b67-f59b1a4ecb17",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Africa/Algiers",
+      "country": "9274512c-f8ae-4d24-8368-21190c0a5b0b",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "056c206c-8990-4e1b-91a0-7973845bb481",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAKT",
+      "code": "Pacific/Wake",
+      "country": "39d5f70b-efb5-455b-8e02-f1e9509955fe",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Wake Island Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "05fa1bc6-71df-4466-9b80-5fa69a98e1a0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AZT",
+      "code": "Asia/Baku",
+      "country": "bcb7e607-535c-4ce5-b07b-d7062abe0d63",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Azerbaijan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "061feac0-7021-4ba6-8896-cc3c2477dc58",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Nouakchott",
+      "country": "6e82251a-7a32-41e6-92d7-9fe86868d9a6",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "06caee3b-1543-497a-bbb5-2e63a99f3315",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Indiana/Winamac",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "089777a3-3fee-4235-9007-9dfae8c746cc",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Monterrey",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "08983626-d1b0-4476-a9e5-f1a7d93e2ab9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ACST",
+      "code": "Australia/Darwin",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 34200,
+      "utc_offset_name": "UTC+09:30",
+      "name": "Australian Central Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "08ae51cc-386e-434c-abe3-d1a2b4212eec",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AEST",
+      "code": "Australia/Brisbane",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Australian Eastern Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "08b578ea-76f5-4cd9-8481-2b579d2f416e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MMT",
+      "code": "Asia/Yangon",
+      "country": "f12303cc-e9a0-4e2c-a41b-a128b105db08",
+      "utc_offset": 23400,
+      "utc_offset_name": "UTC+06:30",
+      "name": "Myanmar Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "095f38cf-fa77-47a3-a72b-85e77f17e132",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AKST",
+      "code": "America/Anchorage",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -32400,
+      "utc_offset_name": "UTC-09:00",
+      "name": "Alaska Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0ac7a999-009b-41c4-b269-e81243913673",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Porto-Novo",
+      "country": "14a92d35-02d4-41bf-a1a3-9de49e6be803",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0af3a46d-94c2-45de-8178-744627a97d89",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CAT",
+      "code": "Africa/Harare",
+      "country": "fb94eb9f-94cd-4b24-9067-c8ebec9f810e",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Central Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0b4ed852-d802-41a3-8475-682dd3694d44",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ICT",
+      "code": "Asia/Bangkok",
+      "country": "8248558a-f96f-460b-b7e4-6eef9ccae82c",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Indochina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0be2563d-3ff2-4b13-ad4a-5f2cd07c6793",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "Asia/Shanghai",
+      "country": "0bab2811-9aa0-4125-ab56-b1c0d159c2ac",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "China Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0dbe48c4-6891-4f06-909b-fff9173ee1f4",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Indiana/Vincennes",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0e074a81-5bec-4a3d-85c8-c8d748ff4567",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Warsaw",
+      "country": "5c1b4855-48e8-4ce0-a32b-12d2c881c118",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0e5297fd-bae5-44ee-80bf-af4059163525",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Maceio",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Brasília Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0ee626eb-13d3-4fdf-8516-d7348bf705d2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MSK",
+      "code": "Europe/Moscow",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Moscow Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0f1aebc4-6ed5-416a-8edf-aa5646b7d038",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Europe/Guernsey",
+      "country": "c7b907ce-fd21-4f16-b839-d1d9a4a389e9",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0f499a60-ad93-4e40-adf6-da9aabefee99",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WET",
+      "code": "Atlantic/Faroe",
+      "country": "ebc357c6-3efa-4fa5-bed1-40880a4fa2ab",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Western European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0fa0c16e-36a2-44b7-bead-71765fa3658e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Tortola",
+      "country": "14f1c04b-a661-4d2b-960f-3399949ac4a5",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "0fcfc14e-d7cf-49fb-8653-f9cf6d2ca4fe",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WGT",
+      "code": "America/Nuuk",
+      "country": "6a6910a4-d228-452a-a63e-eed9f86092ed",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "West Greenland Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "107f77c6-a731-4f2d-a1b6-47eb827f41fd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Africa/Tripoli",
+      "country": "c0ea9d45-2572-4f7a-99b8-bc134719c30e",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "10c38ceb-c619-4901-a498-4272b92d8694",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GILT",
+      "code": "Pacific/Tarawa",
+      "country": "27241636-33e3-4a66-ac9f-9d4f87422642",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Gilbert Island Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "116b4bc7-4b06-4e43-b725-d6b353ce7998",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "Asia/Baghdad",
+      "country": "e2395550-19ce-474a-85fa-cd11553ded03",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Arabia Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "12e7c71d-b338-4d31-8e8e-359071c6486e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Catamarca",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "13eafb31-02fb-4997-b0d9-b111878ff611",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Skopje",
+      "country": "8642d3e3-26ab-4064-a88a-23f62f87ec2d",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "145085e0-d629-4f50-a1ad-44b626ff5368",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PKT",
+      "code": "Asia/Karachi",
+      "country": "895f8c03-ba7f-4aca-b779-8bdcf8496f49",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Pakistan Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "152650cd-7bf6-41d6-8ab7-a547f68b7f68",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WEST",
+      "code": "Africa/Casablanca",
+      "country": "64673465-bf5e-4764-b68b-0c86859cd8f2",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Western European Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "155ad01f-437e-4d14-a85e-dddb368eba59",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WITA",
+      "code": "Asia/Makassar",
+      "country": "31efa834-10a8-40b6-9b54-9a45aed45b64",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Central Indonesia Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1614fdf5-e047-43b3-874d-b85742c9eeea",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PST",
+      "code": "America/Los_Angeles",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -28800,
+      "utc_offset_name": "UTC-08:00",
+      "name": "Pacific Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "16e3f190-b38d-425a-967f-1b9bcf2c4811",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MIST",
+      "code": "Antarctica/Macquarie",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Macquarie Island Station Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "17bb8e97-bab7-4d81-aa22-19c3daf6c1ac",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "YAKT",
+      "code": "Asia/Yakutsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Yakutsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "185873e3-c176-48ee-b52e-37ebf72424c5",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Sao_Tome",
+      "country": "912e4110-bc67-44e1-ba27-38e20ba598d9",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "190999b1-83dc-4d6b-a911-139b6c055c66",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Tallinn",
+      "country": "0559bf4d-68b2-4653-b6d1-2a70919d3ccb",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "19fd0598-d47b-400a-81ad-7ad483a972ad",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Asia/Amman",
+      "country": "b37fd3a3-c25b-4572-907c-cf61e8069d1a",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1ad76509-5cf0-45ed-aaab-33c8177e9f75",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "FKST",
+      "code": "Atlantic/Stanley",
+      "country": "0faabef7-18c3-4c94-a40b-214ca671f929",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Falkland Islands Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1b6a9ba4-ea7b-425f-980d-812e1faae1a7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WFT",
+      "code": "Pacific/Wallis",
+      "country": "20aa227e-7e6a-4955-917f-986b7e3dafca",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Wallis & Futuna Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1c57a5fa-ea74-43ed-8fa4-abd0e3e9fdaf",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Jujuy",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1c694e78-b22b-45e7-90d7-007d33bb274f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ACDT",
+      "code": "Australia/Adelaide",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 37800,
+      "utc_offset_name": "UTC+10:30",
+      "name": "Australian Central Daylight Saving Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1c86ea62-4669-4d1b-8c9d-d4d8de5e205a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Nassau",
+      "country": "48236afb-8374-4f8b-b117-94221ff0973c",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1d1e6d9a-acb8-4db2-8ece-57f28b24592d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Montserrat",
+      "country": "a9092999-41e5-4c90-a7c7-a1b1c5f13c25",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1d3d2d50-56e2-44cd-9851-5fdeb6576478",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Juba",
+      "country": "69aa84a0-409b-4391-a9f6-c48731782a0d",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1d5b5b3e-3fcd-4841-9bba-0f633e495a23",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AKST",
+      "code": "America/Yakutat",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -32400,
+      "utc_offset_name": "UTC-09:00",
+      "name": "Alaska Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1d7aec0e-0831-4d12-9075-4254329bac45",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "KRAT",
+      "code": "Asia/Barnaul",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Krasnoyarsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1e64cacb-b4ec-4d99-8280-c16e95f3e94a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "Atlantic/Bermuda",
+      "country": "7af2c529-aaf6-4150-aece-49eb80c14f79",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "1eb608ec-33c5-470c-8045-5ea216004403",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Budapest",
+      "country": "8beeb19b-c406-48db-8a7e-87a940d1ed4a",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "20052036-98f1-420d-8664-312bc0b29ee7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CLST",
+      "code": "Antarctica/Palmer",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Chile Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "202bb8be-d18f-4001-8d7e-05326cf3576b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Belgrade",
+      "country": "1146018c-d91d-4f0a-bb89-df60036c40e2",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "20450ad8-bf76-44b7-829d-7f573a0fe2e8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Panama",
+      "country": "09d14fd2-6e32-4c12-b1e5-9bb7f3b516d5",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2180a90a-177a-4cfa-be77-637e2f611729",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Indiana/Vevay",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2188f90b-fca0-433b-8950-c214100de8ed",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CAT",
+      "code": "Africa/Lubumbashi",
+      "country": "929b6dd7-f831-4630-89b8-632963a03d65",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Central Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "22edfdfe-3150-4c3d-a6eb-e45a3e33c0d6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WET",
+      "code": "Europe/Lisbon",
+      "country": "04377ea0-066f-41a1-8549-c2fbfbf5448d",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Western European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "23127780-4142-4d51-9105-101e2755a495",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Atlantic/Reykjavik",
+      "country": "42b4eb46-37fc-4af6-ade5-4a5177c7a202",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2584c34c-64d9-49cd-8d2c-a69a1689a37a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Ouagadougou",
+      "country": "8f81d949-bc63-4b98-b8b4-868add025f37",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "26ecd207-9a2f-4167-942b-f8be9a2ee41d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Dar_es_Salaam",
+      "country": "961997f0-a111-41bc-9962-df741ad3d5cf",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "27030f80-6b52-4339-8cb9-9f7ac597c717",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Matamoros",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "27b30ac6-f70d-44d8-9f94-7d781b1fa40a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Cuiaba",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Brasilia Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "27b7b37f-ef87-46a3-bfaf-892ae7facf98",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AMT",
+      "code": "America/Manaus",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Amazon Time (Brazil)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2810efd6-40fb-47c2-9f8c-911c3ca637ca",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SAMT",
+      "code": "Europe/Ulyanovsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Samara Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "28195fc3-8451-4cb6-b1db-9b541c889641",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WET",
+      "code": "Atlantic/Madeira",
+      "country": "04377ea0-066f-41a1-8549-c2fbfbf5448d",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Western European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "28c5e268-217d-4943-b2d3-33b27cc27cfe",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Jamaica",
+      "country": "a3970884-9a5f-45c8-be91-4bb6c02bc67c",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2902b050-a862-4620-9afe-9a633845f210",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Luxembourg",
+      "country": "2f3bb304-2244-4e4c-8e19-cf0daa4bb478",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2960a2f7-94fd-44da-8d3b-a6707ad087e7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Bissau",
+      "country": "d50763c9-c28a-4356-ac8b-d53a7f088b65",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2a8c039e-13af-4b5d-b53a-357d4c2d4031",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AWST",
+      "code": "Australia/Perth",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Australian Western Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2ade253f-cc18-43dd-bcae-3fa73be895b5",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WEST",
+      "code": "Africa/El_Aaiun",
+      "country": "e75a7712-06bf-4d3e-a516-b11d1d598905",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Western European Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2b9fdd84-69fb-4c65-ad12-fcca0825e964",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/St_Thomas",
+      "country": "67f11e2a-f6b4-48e3-b0d6-86639113521b",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2bdb63e2-bf04-45fe-a7d1-8e757f44fdb1",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Detroit",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2d9fa281-ca07-4281-8594-3845601deb38",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Podgorica",
+      "country": "33376063-0952-4016-a433-4b2bf7fbe1ff",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2e8812c1-3738-447c-9bbf-3c3204688212",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ICT",
+      "code": "Asia/Ho_Chi_Minh",
+      "country": "e9fb005b-8087-4407-9354-efd40cd7afbc",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Indochina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2e8b0bfc-b240-4249-b3ab-f84cc779af03",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "YEKT",
+      "code": "Asia/Yekaterinburg",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Yekaterinburg Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2ee01d2b-2b5f-4d6d-a49c-99290158bb9a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Abidjan",
+      "country": "0061678c-9463-478e-a2ec-11c954f8b496",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2f2069b3-71aa-4a1b-b936-38334dd9c2a3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Ushuaia",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2f5fe602-43db-4916-a534-301b5bdc2e8f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Asia/Damascus",
+      "country": "b4be079d-cfdc-4abc-9031-b4e40f860530",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2faaf2c7-33cb-44d8-8a42-5ba616e3c857",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Whitehorse",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2fac68de-0492-4e92-b96b-67c83d057add",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Malta",
+      "country": "8e869ea7-6f47-4378-88d0-b9709474d09b",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "2fd4e3c0-8a09-42c1-a0f9-d1fd1ee19426",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Kinshasa",
+      "country": "929b6dd7-f831-4630-89b8-632963a03d65",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "30e581a7-d485-4401-ad67-56e085823827",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CAT",
+      "code": "Africa/Kigali",
+      "country": "fbd111e6-729c-44dc-9685-7199bd6770f2",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Central Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "314add8c-3f27-4561-a83b-cb89336eba00",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/San_Marino",
+      "country": "c1943e13-8d43-4071-a66a-6a0cc68e76ef",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "31900f3b-16c6-4832-8c66-d44fded013d6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Thule",
+      "country": "6a6910a4-d228-452a-a63e-eed9f86092ed",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "31fa8ed6-327e-42e1-b862-5ccc4767771a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Rainy_River",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3231ff99-7bf4-4ac9-8c00-a9259ed84612",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MSK",
+      "code": "Europe/Volgograd",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Moscow Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "323f7dea-698f-492d-acae-bdbd145f173c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "VLAT",
+      "code": "Asia/Ust-Nera",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Vladivostok Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3322af1f-816d-4b8a-8fd1-753ed926de02",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Berlin",
+      "country": "07e9cd2e-e10b-4929-a13f-16ae6e007f76",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "33692977-92de-4e7e-8fdc-b3a52dddafb0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SRT",
+      "code": "America/Paramaribo",
+      "country": "09732555-a6cd-49a7-acf2-2db2d6a2aef6",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Suriname Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "33825fee-81a7-4854-81fc-f3dc1cfc5f49",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Asmara",
+      "country": "0f98fb45-0d29-443d-92d7-b11b126de761",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "347035e5-bcb3-4115-baae-bdf8460bfdd2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/St_Vincent",
+      "country": "8e12d928-95cb-49c6-8e1a-96a69a9c048d",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3545a627-7325-462f-abc5-8b5a55f8e0cb",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Dawson",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3598388b-7836-4ee1-9361-9a91a2835e9c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MSD+1",
+      "code": "Asia/Atyrau",
+      "country": "77e4c700-1dfd-4f74-ae5f-8954a8ae9fe4",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Moscow Daylight Time+1"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "35b3692d-5fb2-4a4d-a055-4cfc2ce83117",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SCT",
+      "code": "Indian/Mahe",
+      "country": "420ab46d-af48-4b53-99d8-dfe4b0891846",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Seychelles Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "35b799c5-8c0f-47a1-8e9e-da8daefef6bb",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Mexico_City",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "35bf861c-6e2f-466d-8797-f9232f46afa1",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Winnipeg",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "35d11b38-75b7-4d1a-b663-d1c25e6156d0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Madrid",
+      "country": "cff45958-8b22-4c3e-a541-b78a57f686ed",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "36697051-51bb-479e-a93b-a7501693c48f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Glace_Bay",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "37afb526-cc69-40ea-9c99-8d22b0223f51",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Rome",
+      "country": "d500405a-ae05-46ed-816b-32245c99687c",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "38cea4fc-e26a-4737-9f9b-d89aa6a962b7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CHOT",
+      "code": "Asia/Choibalsan",
+      "country": "d7938195-79ac-416a-94ab-c3e9216553c4",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Choibalsan Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "38f76ee3-06c4-425c-9bf7-dbc0ef38be9e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GALT",
+      "code": "Pacific/Galapagos",
+      "country": "6cf1d54d-a5d3-4c1b-9bcb-43bf035ebba2",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Galápagos Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3a14c4a5-28f0-435c-88c8-b7795cac7c00",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "JST",
+      "code": "Asia/Tokyo",
+      "country": "f4b3b68e-724a-4590-b0bf-e8cd9b010810",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Japan Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3a2541d9-47c2-4a98-8cc9-ffd4481d05d0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MSK",
+      "code": "Europe/Kirov",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Moscow Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3a44bea5-4013-4022-9cef-c7897268f51c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "Asia/Macau",
+      "country": "cf0eca6a-ca47-4e95-a458-cc8e1758d296",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "China Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3abd9c3c-9673-4f7e-adce-a082ed6f745d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "HST",
+      "code": "America/Adak",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -36000,
+      "utc_offset_name": "UTC-10:00",
+      "name": "Hawaii–Aleutian Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3ae25e24-5d27-48f0-b735-2203ba36758e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Bahia_Banderas",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3b140efb-15a4-48a0-b8c5-cc4450b4ca8f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CHST",
+      "code": "Pacific/Guam",
+      "country": "b0e033de-7e2e-4e8f-8ec6-e6a4c475ad71",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Chamorro Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3b5887b9-ac48-449d-897f-9bb89e26b6a2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Monrovia",
+      "country": "a117f94f-3776-4b8b-a93d-2555af61c3cc",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3c36b40f-5376-41d0-87bf-1b2cb9447cf2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Chihuahua",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3cb0bba4-79e7-496b-8877-d84d75966876",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "America/Danmarkshavn",
+      "country": "6a6910a4-d228-452a-a63e-eed9f86092ed",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3d246a6b-af32-41af-ad93-6496708e8a4f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PGT",
+      "code": "Pacific/Port_Moresby",
+      "country": "5a19d304-3313-423b-a440-7b92119bfc44",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Papua New Guinea Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3dce5890-db03-4146-adb8-a0041e1410b9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SGT",
+      "code": "Asia/Singapore",
+      "country": "5e9b0963-bcc4-4c11-a543-24d90211a16c",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Singapore Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3f2682d8-3d19-4783-9aa2-0ff77b35279c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CCT",
+      "code": "Indian/Cocos",
+      "country": "5cd75300-f78a-494b-80ae-9a7b79261311",
+      "utc_offset": 23400,
+      "utc_offset_name": "UTC+06:30",
+      "name": "Cocos Islands Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3f69c79a-2857-4947-b2a5-a0e5101652c8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CAT",
+      "code": "Africa/Bujumbura",
+      "country": "8dd077e4-280a-4955-b067-7e120a1a987a",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Central Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3f6af801-5164-4349-bc80-60dd1fb8fdfc",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Toronto",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3f73b423-d114-42a1-9a58-5f637ce2666a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "Asia/Riyadh",
+      "country": "142d5640-940e-419c-80d9-fcd3fdb9af21",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Arabia Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "3fc00737-e685-4364-aa90-97b3113656e9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "OMST",
+      "code": "Asia/Omsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "Omsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "402ce632-8902-4498-87bb-88dd941bad9d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Managua",
+      "country": "929f1569-2ee3-4999-b17d-e58ed41640d6",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "41603e07-a31d-45f7-b6af-a7d8c5f684b3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SAMT",
+      "code": "Europe/Astrakhan",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Samara Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "41fcf32a-5b64-43c9-99e4-c640013ad5cf",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Buenos_Aires",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "421b9ecf-fa5b-4799-8e19-2891489594b8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Antarctica/Troll",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4250e210-725c-4a2a-9455-d4acbe99488a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Atlantic/St_Helena",
+      "country": "f13405d0-ddda-41e9-a337-06a7f03df330",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "42ff28da-be11-49b1-8960-f83d93761caf",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Antigua",
+      "country": "000192d6-bd2e-4c87-a25d-928b102ac826",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "43b733ab-d02f-44d3-ad4c-683de84cade4",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WIB",
+      "code": "Asia/Pontianak",
+      "country": "31efa834-10a8-40b6-9b54-9a45aed45b64",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Western Indonesian Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "44554ff2-dd01-4672-a5ab-bdf52bd11fe3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Rankin_Inlet",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "447fbea1-e126-48d6-a1da-9336db7a329b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Vatican",
+      "country": "03b8a143-76c9-4b6e-ac5b-fdfbab37822f",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "45f85bad-3411-4a43-8add-1dcbf4b6ab4b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Zagreb",
+      "country": "f2a5beef-8235-401e-93d6-d58c112842c5",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "46908baf-f548-4a6a-9cba-e372d4d3529b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MSK",
+      "code": "Europe/Minsk",
+      "country": "34442665-7e68-4934-88bb-0f488820f574",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Moscow Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "47691c37-a045-46a1-a175-657843c1f678",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Mazatlan",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "47cd9a05-d8e6-42d1-9b3d-274eecea43c2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Cordoba",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "48a30f62-efca-41b0-b7a8-71977f0deff0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Kentucky/Monticello",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "498958ed-9b3e-4f14-af37-27e35781be95",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "UZT",
+      "code": "Asia/Tashkent",
+      "country": "b31476b3-5fbc-42db-8ec7-2d3c30777df1",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Uzbekistan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4a876b42-66e8-49e1-8bfa-2f3a6e66eb9e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Accra",
+      "country": "5270676a-4ca2-411e-b8f7-2f2cfc1ed708",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4b337308-8cec-41ad-bdee-26d42e903e4d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TFT",
+      "code": "Indian/Kerguelen",
+      "country": "b32cb130-f598-4377-8881-1f01cc8e089e",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "French Southern and Antarctic Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4b70cae5-e0fb-4ed2-84bd-51284e912d10",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "KOST",
+      "code": "Pacific/Kosrae",
+      "country": "47280c2c-d994-4079-9fdc-2d78906ab3c0",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Kosrae Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4d6f2f35-2505-406c-9d96-73aa2520055d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Merida",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4d7a24b7-cb31-4fe9-8cb8-440284b17a6f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Santarem",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Brasília Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4e1801e3-6bc2-460e-83f3-e4b49799a378",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CVT",
+      "code": "Atlantic/Cape_Verde",
+      "country": "eb43121e-4083-4840-b9aa-36230ae14584",
+      "utc_offset": -3600,
+      "utc_offset_name": "UTC-01:00",
+      "name": "Cape Verde Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4e2cd670-33fe-422a-8235-4e8e702142b2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Cambridge_Bay",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4f3f632d-d2f7-4b60-9a83-cfbacf924055",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NOVT",
+      "code": "Asia/Novosibirsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Novosibirsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4fbac816-55bd-4edc-b539-351133b076f3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Fortaleza",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Brasília Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "4ffec637-2725-4c28-8547-37a9c002c97a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MSD+3",
+      "code": "Asia/Tomsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Moscow Daylight Time+3"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5087df5f-f61e-4b1a-9fb4-962b9f0107a6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WIT",
+      "code": "Asia/Jayapura",
+      "country": "31efa834-10a8-40b6-9b54-9a45aed45b64",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Eastern Indonesian Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "50a643c3-4fc9-4f5a-802e-1e4583159b75",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AMT",
+      "code": "America/Campo_Grande",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Amazon Time (Brazil)[3"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "51591dcf-af32-4fae-b110-7227ac635405",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GAMT",
+      "code": "Pacific/Gambier",
+      "country": "883b6e79-280c-4fe4-acb7-700a2f09903e",
+      "utc_offset": -32400,
+      "utc_offset_name": "UTC-09:00",
+      "name": "Gambier Islands Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "51633334-5299-4d4d-8b67-b12187ae8e72",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AKST",
+      "code": "America/Sitka",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -32400,
+      "utc_offset_name": "UTC-09:00",
+      "name": "Alaska Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "51be4387-6270-47fe-b8be-401f8aadfc51",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "Asia/Bahrain",
+      "country": "9bf8534a-0e17-434f-beb8-09780b8930d4",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Arabia Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "528522e9-54e7-4e8e-a33e-429cb1bc0b5c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SBT",
+      "code": "Pacific/Guadalcanal",
+      "country": "8f6e7244-48b4-4449-b29a-d52efb21435c",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Solomon Islands Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "530c6f96-8a49-47e5-a7b5-8d14ed288a53",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "VLAT",
+      "code": "Asia/Vladivostok",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Vladivostok Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "53639cda-e546-42c6-94c7-e965a12ec515",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SAST",
+      "code": "Africa/Mbabane",
+      "country": "39b0c679-d6cf-429a-b3c0-bd5d9c15a42e",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "South African Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "54aaad56-3aa9-4e1d-aefa-eed163376bbc",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MAGT",
+      "code": "Asia/Magadan",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Magadan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "55865d1c-8d5e-4702-8cd9-d32d69e8270a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "KST",
+      "code": "Asia/Pyongyang",
+      "country": "01373b33-2e38-4a5e-b120-77cc8bd92be3",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Korea Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "564ea7a7-9bba-4aad-8e91-f98e164d6b59",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AZOT",
+      "code": "Atlantic/Azores",
+      "country": "04377ea0-066f-41a1-8549-c2fbfbf5448d",
+      "utc_offset": -3600,
+      "utc_offset_name": "UTC-01:00",
+      "name": "Azores Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "56890222-0f2a-4fa4-ae77-5d94d7c13c44",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CAT",
+      "code": "Africa/Lusaka",
+      "country": "4048d9ea-567d-41f0-9b8b-4143cf1cd218",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Central Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "58747a55-7f84-4005-8232-1792128446d9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/El_Salvador",
+      "country": "e1ad625a-0356-4d47-ac75-f9a273ca0b1d",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5a6e30c2-1387-43fc-a184-21228c1098b6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Bahia",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Brasília Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5abd39c0-8e44-4481-a279-24db18606fca",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Edmonton",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5bf18617-a3bf-409d-a391-e2deb178aa2c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Copenhagen",
+      "country": "faa777b1-b993-4f54-94cd-794e47520769",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5c31c10b-5def-4fa3-b9f0-2f0b8ca7d7a7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "IRDT",
+      "code": "Asia/Tehran",
+      "country": "80da64b8-5a69-4d30-9426-56696e146bdf",
+      "utc_offset": 12600,
+      "utc_offset_name": "UTC+03:30",
+      "name": "Iran Daylight Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5cab5fae-0993-4186-a231-492b20ad161f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Grenada",
+      "country": "bec6f0ec-3f1d-4907-8e1e-567b8ed13e51",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5daf6fe8-9ab3-48f2-82d6-25829c28746e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Europe/Jersey",
+      "country": "8581f3c8-df19-423b-978a-850373be3993",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5db121d4-442e-43ee-8e7d-74bc90225156",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Aruba",
+      "country": "de2b8854-6b36-427a-ae1b-44b36decddc9",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5db36fa2-175f-4913-9f93-9c78bd7f2aa0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "IST",
+      "code": "Asia/Jerusalem",
+      "country": "48b21d71-6ce8-426b-baf5-db6a308f82cc",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Israel Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5de259ca-eee6-405b-b63b-9c912e3a4142",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Brazzaville",
+      "country": "038714f3-0303-490c-b6f6-fcefc710776d",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5e46e096-c18f-45fd-bc7b-55ccd82b5ec6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "KRAT",
+      "code": "Asia/Novokuznetsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Krasnoyarsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5e683dfe-6964-4013-8365-d61b71205eda",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ACT",
+      "code": "America/Rio_Branco",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Acre Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "5ee6218b-7f85-4901-bd92-5728dc2244b2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Mendoza",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "60599bea-a769-449e-8b99-6b5629744895",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "HST",
+      "code": "Pacific/Honolulu",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -36000,
+      "utc_offset_name": "UTC-10:00",
+      "name": "Hawaii–Aleutian Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "60974a62-462c-46d6-8bc6-e2d2da9243db",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "KST",
+      "code": "Asia/Seoul",
+      "country": "1b5c3381-456b-4388-af31-4df5813fb504",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Korea Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "61560672-62bd-48ba-9036-0d9826f18861",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Stockholm",
+      "country": "f2490759-fc65-471b-9815-804ea889d0c0",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "62671092-b1b9-431f-a2ea-0792878a8bcf",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Blanc-Sablon",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "635377d3-5ab3-4de2-b450-8ac8554b893f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Phoenix",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "64275dd1-2c70-471b-9220-9a6a34a5f775",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Indian/Comoro",
+      "country": "bebe0e26-58c7-4699-bdf2-d8bbdd674df2",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "64f83231-1ec5-4681-b8c3-579fe1d3fe50",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "Asia/Taipei",
+      "country": "7a9a2f90-adad-4be6-b286-5ec0f351c3b3",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "China Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6522440e-bf75-4500-b2c1-e7214492d980",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AEDT",
+      "code": "Australia/Sydney",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Australian Eastern Daylight Saving Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "659e9f8c-2b20-4b26-b684-439a75507bce",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SAST",
+      "code": "Africa/Johannesburg",
+      "country": "0185f243-24bb-4896-aba1-416bd3312413",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "South African Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "65c02fd4-bd43-43ad-a184-3654638f9ade",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TAHT",
+      "code": "Pacific/Tahiti",
+      "country": "883b6e79-280c-4fe4-acb7-700a2f09903e",
+      "utc_offset": -36000,
+      "utc_offset_name": "UTC-10:00",
+      "name": "Tahiti Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "668dbcd9-8dd6-43f7-9686-2b7438064263",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MYT",
+      "code": "Asia/Kuching",
+      "country": "41dfbcb6-9839-43bb-9894-0d8b30adff85",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Malaysia Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "675756c7-9076-4937-9637-b259ed68fefd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BTT",
+      "code": "Asia/Thimphu",
+      "country": "8b871179-a149-47e4-96c0-219fee140c91",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "Bhutan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "68a44403-7c16-4678-8fe8-3a934ddb546f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Indian/Mayotte",
+      "country": "f8753a1d-5fba-4c31-a4c2-e942cc96331e",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "69b44b86-496c-400b-a74f-8e7a20f9cdc2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SYOT",
+      "code": "Antarctica/Syowa",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Showa Station Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6a5b7632-6ea3-4aca-bca5-c1b04800ebf0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Ljubljana",
+      "country": "8c3f5394-d45a-49fc-989f-b392c71c5fed",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6addccb5-2dea-4c6f-8dd3-d9721cb68605",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Oslo",
+      "country": "0fa67212-abcc-49df-992d-3722a186f370",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6be0bf84-7cdc-46e9-9767-298670ffee04",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PETT",
+      "code": "Asia/Kamchatka",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Kamchatka Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6ccdcc26-62b4-441e-9e5b-cffbd01707a9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Europe/Isle_of_Man",
+      "country": "a3c00b51-8751-41a3-9b83-aed695176c05",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6d5946e6-5592-4383-80d1-411381688652",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Kampala",
+      "country": "7ef5eed0-2db0-496b-adf7-3a98e2035a1a",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6d6c99fc-25c6-4fae-aa34-0d0e171b7ae0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Guadeloupe",
+      "country": "cb141ecb-4c29-46c7-aa56-7b53c05162b6",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6ded36dd-201a-4ab4-87d3-ac5cdaba7da1",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Sarajevo",
+      "country": "e036b58e-9a2a-487c-b5fb-13ba7c1ce671",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6e3308b5-1fa3-4f4a-89f6-e54b6ab32c6e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Port_of_Spain",
+      "country": "1c33ece7-da55-46a3-aa4f-c653ba113944",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6e4af104-90c2-4a50-9a22-8c4e3f8b28bc",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ROTT",
+      "code": "Antarctica/Rothera",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Rothera Research Station Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6e5e5a73-181f-4afd-8507-4965400dc8e0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CAT",
+      "code": "Africa/Blantyre",
+      "country": "b55be96b-124e-4514-b980-598be7179e14",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Central Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6ef74613-f4d9-4cc3-9d26-0dc9a95a60a1",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Uzhgorod",
+      "country": "a8df2aaf-0449-492d-b2c5-2e87eaadb685",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "6f71ea2d-d2a7-42ee-8cc0-68a7015f417c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Nairobi",
+      "country": "f03d57e1-2e55-45bc-9b9d-4070acdc7dca",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "712c5150-2bd8-46b8-b9f3-16915186937a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Oslo",
+      "country": "aa60191e-1639-4774-9d02-3fbf9c698c39",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "72e2b988-7483-4805-9eb5-a569c2defebd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAST",
+      "code": "Africa/Windhoek",
+      "country": "1318458a-d67b-4191-88bb-057a3f61c32b",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "West Africa Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7375534a-7185-48dc-bf57-1722e0d4f128",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Boise",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "74140e51-bdd4-4287-8fb8-1669c32530e4",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NFT",
+      "code": "Pacific/Norfolk",
+      "country": "55560827-d0fc-4cac-a214-b999d3a64014",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Norfolk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "74ffcf68-3db2-4b57-ad0c-5e3c8fb973b3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Moncton",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "75911633-7bd7-4654-ae51-41d293733250",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Belem",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Brasília Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "75dbf4be-131d-4b1a-9250-8b5ef022d48e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "HKT",
+      "code": "Asia/Hong_Kong",
+      "country": "c933b7ad-4235-4a6c-bc88-b0d355b7b5e5",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Hong Kong Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "762386ec-0ab0-40ad-b6c4-7e5dbcfaa4ba",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NUT",
+      "code": "Pacific/Niue",
+      "country": "ca9aaba3-3eeb-4325-944f-5fd17d82c6e5",
+      "utc_offset": -39600,
+      "utc_offset_name": "UTC-11:00",
+      "name": "Niue Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7639cbdf-b14c-47d7-85cb-adfc59bc3bab",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Atikokan",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7675c10f-af7c-42c2-97d7-2cca19cee619",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Inuvik",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "76f86e98-33e6-4816-b956-16e6dfeab05b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Indiana/Marengo",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "775f2bae-003b-4ca3-9393-51393883fa9a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Freetown",
+      "country": "f4b94a9a-a8bb-4595-baf3-b71ea58c308e",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "78c3faa4-0c74-4fb5-8669-ea406627ecd8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TKT",
+      "code": "Pacific/Fakaofo",
+      "country": "5341f093-764b-4dc8-9a8e-7723db07fa34",
+      "utc_offset": 46800,
+      "utc_offset_name": "UTC+13:00",
+      "name": "Tokelau Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "78e12d8a-edfd-4398-b3c3-43d5648e79ab",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Curacao",
+      "country": "a1d49ad5-375a-4ebc-9fba-5695c4e1a14e",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "798f0533-134f-40b3-83a9-fdc8028b1584",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BST",
+      "code": "Pacific/Bougainville",
+      "country": "5a19d304-3313-423b-a440-7b92119bfc44",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Bougainville Standard Time[6"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7a764522-234e-4e5d-af96-ca4a3671fd52",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Resolute",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7b1311aa-899b-4611-ba2a-5f4293c416fc",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PMDT",
+      "code": "America/Miquelon",
+      "country": "d0841e62-4d61-47ca-83c1-c9e3a802d42c",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Pierre & Miquelon Daylight Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7b6c5894-8c83-4a16-a0ac-c995f7218a53",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ACDT",
+      "code": "Australia/Broken_Hill",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 37800,
+      "utc_offset_name": "UTC+10:30",
+      "name": "Australian Central Daylight Saving Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7bbbd20d-e8cb-4684-9ab0-68195721a3c9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Menominee",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7bf140e1-c24a-4f23-9c54-4b7db0edf305",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Anguilla",
+      "country": "cc7efc8c-2c98-4996-91c2-3232e91c7857",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7ca41f1f-19b4-4a35-8fe3-c947424bddd3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Anguilla",
+      "country": "eb4b8b5f-49e3-4886-b9dd-da47dce2c449",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7d13d76e-e78c-43b5-b956-46202dd779e5",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Pangnirtung",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7db652f8-2b5c-4e5d-9fc4-446c4bb094c6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "RET",
+      "code": "Indian/Reunion",
+      "country": "5ddfc445-29ee-4766-b0a4-ca8f98559e39",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Réunion Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7df4c12e-4767-4346-989e-acbc9d4fc672",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Asia/Nicosia",
+      "country": "86f8637f-e16f-4bc0-bc99-fbe471048291",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7e010dc7-508f-429d-bdf2-0225dc81f0c3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Salta",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7e2110bf-7859-425b-9e74-15f95c033dde",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MART",
+      "code": "Pacific/Marquesas",
+      "country": "883b6e79-280c-4fe4-acb7-700a2f09903e",
+      "utc_offset": -34200,
+      "utc_offset_name": "UTC-09:30",
+      "name": "Marquesas Islands Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7ff99d47-208e-4d97-95b8-160e713d383c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Grand_Turk",
+      "country": "7301e3e4-0c27-4085-bcdf-f04bac0d97d7",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "7ffc8405-a6ac-44d8-8092-4e757fe0d847",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AKST",
+      "code": "America/Nome",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -32400,
+      "utc_offset_name": "UTC-09:00",
+      "name": "Alaska Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8090aa71-af30-487e-810b-23d4e7b64291",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Thunder_Bay",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "81d9a313-79ea-4b3c-991c-877ebddb7f05",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ChST",
+      "code": "Pacific/Saipan",
+      "country": "ac4d297f-3082-49b1-ae85-b4e2b38b57e4",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Chamorro Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8397f4d3-8244-4299-8a03-38ac1d7ce6c5",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Indiana/Indianapolis",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "83edbff7-9470-49ed-bbf6-90d2fc2cd798",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CHUT",
+      "code": "Pacific/Chuuk",
+      "country": "47280c2c-d994-4079-9fdc-2d78906ab3c0",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Chuuk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "84aa2eba-009d-4fb3-9bbc-a364a895b8a0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TLT",
+      "code": "Asia/Dili",
+      "country": "fabc68c5-34c3-4b40-956a-b5c9454444c0",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Timor Leste Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8529fe16-b799-4f0e-a976-5a4e67cf6a55",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ECT",
+      "code": "America/Guayaquil",
+      "country": "6cf1d54d-a5d3-4c1b-9bcb-43bf035ebba2",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Ecuador Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "86d0ba1b-4832-4d84-9ee5-c2f325729e41",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Asia/Famagusta",
+      "country": "86f8637f-e16f-4bc0-bc99-fbe471048291",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "87d4eb68-c840-4a12-8c78-f3bb1cbcc462",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "VUT",
+      "code": "Pacific/Efate",
+      "country": "1a5c4397-250f-48ac-a3c2-3052b75656b2",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Vanuatu Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "88596071-fcd7-4239-80cf-0ce0a6bccad7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Asia/Gaza",
+      "country": "b70c7bb3-6109-4b40-adf8-47b01c5d34f1",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "888458c6-95ba-4b61-b3d4-719870a8829c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "Asia/Qatar",
+      "country": "f3631826-213e-4c30-8254-6812448ca732",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Arabia Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "88df36e3-3472-4bb2-9497-8ff94a6c4637",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "DDUT",
+      "code": "Antarctica/DumontDUrville",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Dumont d'Urville Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8966364e-8114-4fad-aa71-6ee41de78415",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Indiana/Knox",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "89da767b-3697-4270-a9f6-30f8f8f1ecfd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WST",
+      "code": "Pacific/Apia",
+      "country": "bcdb56cb-c6b1-47a4-b258-cd830e235112",
+      "utc_offset": 50400,
+      "utc_offset_name": "UTC+14:00",
+      "name": "West Samoa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8a1a19c9-574c-478e-9936-4e5dff563a16",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Luanda",
+      "country": "668631c1-106a-4af5-b455-a27319929281",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8baf9585-11ea-4d9e-a5da-31209b47986d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Vilnius",
+      "country": "22634d4e-b5cb-4af6-9ec0-d71f4c500e25",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8bbf3a13-ca9e-4b03-a989-3ac62017ecb3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BOT",
+      "code": "America/La_Paz",
+      "country": "427e2126-5235-472e-a80b-cc926f59bf3f",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Bolivia Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8c931150-c413-49ef-998a-1fc081246d43",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "DAVT",
+      "code": "Antarctica/Davis",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Davis Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8c997199-7680-4f31-a237-44069f12071a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Dawson_Creek",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8ccb1b98-3c6e-415b-bb67-1558c7b0327a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Gibraltar",
+      "country": "7da5caf2-2f2e-4f1e-8c95-3e0e4e07698b",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8d955d34-734e-49b5-998a-1123e366fb83",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MAWT",
+      "code": "Antarctica/Mawson",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Mawson Station Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8e18bb72-ef68-4444-8931-127e6b987a24",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MYT",
+      "code": "Asia/Kuala_Lumpur",
+      "country": "41dfbcb6-9839-43bb-9894-0d8b30adff85",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Malaysia Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8e78029f-32d1-498d-b49b-405d376d6a89",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/St_Barthelemy",
+      "country": "2033e8e4-8e23-41a1-a20c-f2083d90cb3c",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8ea58f79-f75f-4e66-a4e7-82aa450f5c1b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Conakry",
+      "country": "3c9fe80e-a2d3-4267-94f5-ca41d157054b",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8eb5ed92-9cce-403e-85f8-fa9ce357b238",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AWST",
+      "code": "Antarctica/Casey",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Australian Western Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8ed4850c-ce95-4e27-b72a-9f6b3e29de97",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NZDT",
+      "code": "Antarctica/McMurdo",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": 46800,
+      "utc_offset_name": "UTC+13:00",
+      "name": "New Zealand Daylight Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "8f19d426-0515-4801-a881-a62795b0c04b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/La_Rioja",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "90adec2c-cfa5-4e98-9308-ffe3f8123a51",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SAST",
+      "code": "Africa/Maseru",
+      "country": "bc0174ba-3999-43ae-b504-e87f8b34aafe",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "South African Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "90de9340-4647-4e7b-8415-ce711f0ca5fe",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Bangui",
+      "country": "cccf71d1-4dfb-472f-8144-802e7ce6aad7",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9175a06a-0720-4eec-a1ef-7223671308e5",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Zaporozhye",
+      "country": "a8df2aaf-0449-492d-b2c5-2e87eaadb685",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "922fec8f-3d42-4a91-847e-cebb9c97515b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "VET",
+      "code": "America/Caracas",
+      "country": "b6758ede-8498-4913-8f3f-49cbe2cd2212",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Venezuelan Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "925a40ec-2a22-4061-9a6b-159e6c35404f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CLST",
+      "code": "America/Santiago",
+      "country": "189e70de-e6a7-49c3-ac3e-11e98641f0d0",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Chile Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "92a203cf-8eef-41da-8df3-7ae75142cc65",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Lagos",
+      "country": "451b9368-dadd-493b-a3b9-c82b5494c2f4",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "92d944cc-6228-4bc8-ad5a-2bd138a702c2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Helsinki",
+      "country": "19f2c04b-16da-4091-8a5e-13adede11e3a",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "92fd69e9-3666-48af-9366-70d1581d3f14",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TVT",
+      "code": "Pacific/Funafuti",
+      "country": "e695df42-3668-4927-96b1-df89d11cc8ba",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Tuvalu Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "94757cd0-b392-4f38-930b-a81e1015257a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Havana",
+      "country": "9a0e06a2-1c89-4c00-b7a0-17b5a407c4cb",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Cuba Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9523fd52-e2ea-4b52-b2a7-175bd6697ef3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Ojinaga",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "953c859b-c90c-4678-afc0-cddaae3a294f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Tegucigalpa",
+      "country": "a8532691-6850-45d8-89c0-025e6b622a0f",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "95d539b6-64d3-48b3-81e9-f143d67397dc",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TFT",
+      "code": "Indian/Kerguelen",
+      "country": "6485f247-ef0d-48e9-b2bf-66d576c960cc",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "French Southern and Antarctic Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "965dc874-6304-447f-a847-5f065f91e1a7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PET",
+      "code": "America/Lima",
+      "country": "c16f3105-ac57-45ab-a75b-6c50851b70c4",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Peru Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "968a0bf6-935e-49bb-a26b-a288f84b5615",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Athens",
+      "country": "f7a61fc4-6742-463e-b076-d1d874343961",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "985ebd2e-0921-49f1-aca2-211b03c4628e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Bamako",
+      "country": "63dd45f4-bd17-432d-b02d-6aa3fef60838",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "98bf3b12-5a1d-4c02-8928-55e6c65950da",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AKST",
+      "code": "America/Metlakatla",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -32400,
+      "utc_offset_name": "UTC-09:00",
+      "name": "Alaska Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "98c094dd-581b-428e-8b62-fb5340253b6b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/Rio_Gallegos",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "994cace6-a1aa-45fd-a56c-3033c9dad173",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "Asia/Aden",
+      "country": "8ec93acc-0bc9-437e-8981-572ac5721577",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Arabia Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9988d7fc-6515-42bd-8701-b6304c0aee77",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PST",
+      "code": "Pacific/Pitcairn",
+      "country": "7a5b3119-f9c6-4829-ae60-35b864d99685",
+      "utc_offset": -28800,
+      "utc_offset_name": "UTC-08:00",
+      "name": "Pacific Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9a3ef9fa-55ef-48c9-9cd9-a46951355853",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AMT",
+      "code": "America/Porto_Velho",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Amazon Time (Brazil)[3"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9b141366-11c4-4842-81da-5737a3d2e32a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MHT",
+      "code": "Pacific/Kwajalein",
+      "country": "3040bca0-3b80-4cd3-bff8-50bc45f15e3e",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Marshall Islands Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9be5aab0-c3ab-4123-b437-45fa71945f27",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Hermosillo",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9c10ff56-61a8-48f7-b633-f1f0349b952f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/New_York",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9e3c091d-9611-4d1f-a1db-b69384d20c7b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AMT",
+      "code": "Asia/Yerevan",
+      "country": "baee7a7c-38e7-4520-8589-3fe2b342ec28",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Armenia Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9ed1d563-0d0c-452d-9611-5db8da41bb03",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Douala",
+      "country": "ef420d4d-60f8-48c5-b5f1-860cbe75a1f3",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9f53b91a-39ad-4a79-9be2-2eae32a1dbe5",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "QYZST",
+      "code": "Asia/Qostanay",
+      "country": "77e4c700-1dfd-4f74-ae5f-8954a8ae9fe4",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "Qyzylorda Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "9fc35bec-9f3e-43e3-bdc3-34ca8c016d88",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "KRAT",
+      "code": "Asia/Krasnoyarsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Krasnoyarsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a0483027-6314-446e-b616-07259601d1c8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ICT",
+      "code": "Asia/Phnom_Penh",
+      "country": "ff0992a6-51c5-4287-b505-0cf4ff6450c1",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Indochina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a0943564-1180-4b71-a5fc-5375ca638d85",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GET",
+      "code": "Asia/Tbilisi",
+      "country": "a31e3906-ea13-423b-b98c-89286b14aeb1",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Georgia Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a0c45c59-95c0-4bf7-a184-68249a99b0b0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AEDT",
+      "code": "Australia/Hobart",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Australian Eastern Daylight Saving Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a1787072-9f56-4b5f-a66c-6fb017dcf5c5",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NRT",
+      "code": "Pacific/Nauru",
+      "country": "04bbece5-3b95-4348-87f0-3d24dd881b35",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Nauru Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a23a6dd9-74fe-4128-a1d0-135b571aa6fd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TOT",
+      "code": "Pacific/Tongatapu",
+      "country": "cbd0637b-e19d-450c-910f-94bf79300905",
+      "utc_offset": 46800,
+      "utc_offset_name": "UTC+13:00",
+      "name": "Tonga Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a2da6f80-eec2-4724-8c09-0f01e0c34b01",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Yellowknife",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a30ed46d-a706-461d-bb3c-a2631fdf35f9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AQTT",
+      "code": "Asia/Aqtobe",
+      "country": "77e4c700-1dfd-4f74-ae5f-8954a8ae9fe4",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Aqtobe Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a3e0c7e0-2150-4267-a480-4c039f6d4822",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PST",
+      "code": "America/Tijuana",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -28800,
+      "utc_offset_name": "UTC-08:00",
+      "name": "Pacific Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a50a81dd-1c2d-40cc-baa6-e91091851299",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NCT",
+      "code": "Pacific/Noumea",
+      "country": "a35f7771-e907-4db4-8530-f3e815da2e88",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "New Caledonia Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a55be98b-1425-4b21-96b2-7b54d5bc382d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "IRKT",
+      "code": "Asia/Irkutsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Irkutsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a5b6935a-6424-45eb-bc68-c6be1416ddb0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Paris",
+      "country": "6062f7e9-402d-4491-8bae-584511ccdf1f",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a72acd41-8797-4951-8f47-eff6602d891e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Kaliningrad",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a761103a-ebfb-4ec9-b86c-e2efa5c88b42",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Dominica",
+      "country": "9b7c81b5-8b1b-49ac-8b88-14afd68318d2",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a77cbde7-9681-4a7d-b0d3-892abcd7cb22",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CHAST",
+      "code": "Pacific/Chatham",
+      "country": "b4b24d5c-d201-4dc6-b98a-4febf0318c79",
+      "utc_offset": 49500,
+      "utc_offset_name": "UTC+13:45",
+      "name": "Chatham Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "a9e60076-c46d-4f45-a2ec-d0dab9f13a2c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "Asia/Kuwait",
+      "country": "85e674e4-d713-4a9a-a38a-d968fed0276d",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Arabia Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "aba0c7c3-1b85-4d69-86d0-eb308af3b518",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TJT",
+      "code": "Asia/Dushanbe",
+      "country": "b8cfbea6-03f6-4661-a602-3c759bf3a254",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Tajikistan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ac7889cb-3bf3-4790-8a7e-c1288c6beb88",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Vienna",
+      "country": "6ff8cb3f-ad2f-4540-a9fb-4c57346f6b44",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "aca92bdb-9f6c-436d-9069-48f9e31d3064",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "UZT",
+      "code": "Asia/Samarkand",
+      "country": "b31476b3-5fbc-42db-8ec7-2d3c30777df1",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Uzbekistan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ade2ed59-ca89-4b0f-89f0-7ae8983e5a1a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Tirane",
+      "country": "86db953c-285d-4259-b916-9f44bd1a25f4",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "adff8cdd-4e64-485e-8673-fc3371181d04",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Cancun",
+      "country": "278598b1-3a93-4de9-b540-b39b4e7a41c6",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "af784072-a02c-4530-8de5-5b0e2e6482fd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "XJT",
+      "code": "Asia/Urumqi",
+      "country": "0bab2811-9aa0-4125-ab56-b1c0d159c2ac",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "China Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b0ba3214-58a7-4b2d-b814-666b48b6c5ee",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Barbados",
+      "country": "4341d36d-9ef9-40e8-ba21-573872708f73",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b13016cb-21ec-4ca8-8eec-b936291b7a80",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Halifax",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b1cb5ad5-1622-437b-befc-46eb50e45387",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "VOST",
+      "code": "Antarctica/Vostok",
+      "country": "e0eab189-3dc3-46de-832c-f68ea5ddc19d",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "Vostok Station Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b1f64aab-8243-417e-8d77-7d4264362418",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Goose_Bay",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b1fee07e-09c2-47bb-acb7-f5b3612b69e8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Anguilla",
+      "country": "c5c53402-f33a-481b-9ad9-c926fc7928b9",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b230551f-380c-444c-90ab-6c75f438cc20",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ICT",
+      "code": "Asia/Vientiane",
+      "country": "7383109f-0d68-4abe-a87a-0d3e6eb91046",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Indochina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b23059fb-a992-40be-b42b-5d3b97a0685c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/St_Kitts",
+      "country": "47a81906-f3b5-4eae-bd8f-af4c8da6827c",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b2e795cb-a75e-4e5f-b9c3-aa1ef3c19723",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "TMT",
+      "code": "Asia/Ashgabat",
+      "country": "06f51b2b-f41c-4f15-88f4-b9829c3934e9",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Turkmenistan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b2f7f417-9177-4974-af43-279c67d85fdd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Port-au-Prince",
+      "country": "9beb8d8a-73f6-4a4a-b314-de7de59577f5",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b3119748-d633-4ee0-a2d2-3fcf7015ee1a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "FNT",
+      "code": "America/Noronha",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -7200,
+      "utc_offset_name": "UTC-02:00",
+      "name": "Fernando de Noronha Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b3cf6fc4-f058-4fb4-b445-57f85f3f2353",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WET",
+      "code": "Atlantic/Canary",
+      "country": "cff45958-8b22-4c3e-a541-b78a57f686ed",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Western European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b40a81fd-67c3-4c53-ada6-6ef5df5681b8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Monaco",
+      "country": "3c6dc1ce-688c-477d-8b92-93d02e80afc8",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b4c13c77-48e8-462a-9221-1e8055aac04d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NST",
+      "code": "America/St_Johns",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -12600,
+      "utc_offset_name": "UTC-03:30",
+      "name": "Newfoundland Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b5f81af2-af2b-454b-a6c6-f8588a4daa60",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ALMT",
+      "code": "Asia/Almaty",
+      "country": "77e4c700-1dfd-4f74-ae5f-8954a8ae9fe4",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "Alma-Ata Time[1"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b6325406-f0ac-46ac-9c95-013570b1606e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AEDT",
+      "code": "Australia/Currie",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Australian Eastern Daylight Saving Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b6ab8830-4f98-4afa-b2e7-90e542598317",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ORAT",
+      "code": "Asia/Oral",
+      "country": "77e4c700-1dfd-4f74-ae5f-8954a8ae9fe4",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Oral Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b6f6fbca-eece-4680-b170-201fb6a89b68",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "COT",
+      "code": "America/Bogota",
+      "country": "59f1a871-9543-4899-9e9e-432a613e99ed",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Colombia Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b7d283d5-6643-4879-ac8b-74e9019148f6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Busingen",
+      "country": "07e9cd2e-e10b-4929-a13f-16ae6e007f76",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b89bd7ec-f3ff-4f61-9a30-377585f19c42",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ART",
+      "code": "America/Argentina/San_Juan",
+      "country": "fead1652-60e9-400e-afd7-ae42040b20f4",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Argentina Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "b965ca09-7ac1-43c5-ac0d-83ab6fd530cf",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Costa_Rica",
+      "country": "4bcb2c20-6c77-406a-8db3-6402d657b758",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ba2b5acc-779f-4bb1-8b32-d462f94eb0d6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EGT",
+      "code": "America/Scoresbysund",
+      "country": "6a6910a4-d228-452a-a63e-eed9f86092ed",
+      "utc_offset": -3600,
+      "utc_offset_name": "UTC-01:00",
+      "name": "Eastern Greenland Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "bb773c44-6ed8-4295-8a9a-4f9eadf8d464",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Mariehamn",
+      "country": "d52655aa-1f75-40b7-add4-4f8780946e87",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "bd1d782e-4ef2-4444-945f-cc04168d5052",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BNT",
+      "code": "Asia/Brunei",
+      "country": "ba42d8e5-6b1a-4b33-afdd-7a7458b5f200",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Brunei Darussalam Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "bd9edad7-6a7d-4a58-b8a1-87c00d735d44",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/North_Dakota/Center",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "be1cf5c7-bae7-4564-8942-8d32c7b6ceb6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Fort_Nelson",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "beb5af27-4103-4ebe-bf3d-5a3feb6cb23a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PWT",
+      "code": "Pacific/Palau",
+      "country": "084ef477-6697-44bf-af01-197760d4ae1c",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Palau Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c01b708c-091b-41ff-b61b-cbe144fab51f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Indiana/Tell_City",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c11e2a7b-9354-4fdd-b1ac-6944d635a793",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Chisinau",
+      "country": "7f16a567-f8a5-4041-b0c4-541c17cb1702",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c18db7bf-20a9-4ada-a955-080f6286a48b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GST",
+      "code": "Asia/Dubai",
+      "country": "748f6f36-6eaa-4ad6-ad80-0f9a4c902cfe",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Gulf Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c301688c-e0d7-47a3-aa2f-d6311535a541",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CAT",
+      "code": "Africa/Maputo",
+      "country": "c92622d3-692d-4727-84a4-a8a628195b16",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Central Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c3138129-46e9-43c8-9116-25e6cb6b11b6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "IST",
+      "code": "Asia/Colombo",
+      "country": "6c1d2b52-35e1-4304-85d2-476870b0f786",
+      "utc_offset": 19800,
+      "utc_offset_name": "UTC+05:30",
+      "name": "Indian Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c3baee79-ffc6-4db6-a4d1-c39f6e583d81",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MHT",
+      "code": "Pacific/Majuro",
+      "country": "3040bca0-3b80-4cd3-bff8-50bc45f15e3e",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Marshall Islands Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c3ff0439-26a2-491c-95ad-c767015e30f4",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Istanbul",
+      "country": "49950459-a718-4b53-bca0-a9729aac06d0",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c475f631-c5e4-41b7-b0b1-9f68a9630c79",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/St_Lucia",
+      "country": "9d081e82-3813-44a0-9104-caa6afafa82f",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c4867c52-9c91-4462-826d-426ca4f0bfa6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "UYT",
+      "code": "America/Montevideo",
+      "country": "ce541667-39ec-4b6d-a464-239086f26828",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Uruguay Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c5a22871-660d-4d63-9918-fa75632d4ea0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GYT",
+      "code": "America/Guyana",
+      "country": "a83f0f71-9fdd-4f19-bdc2-ce302d526863",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Guyana Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c675493d-2ba5-4367-8e68-6433004f5141",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Asia/Hebron",
+      "country": "b70c7bb3-6109-4b40-adf8-47b01c5d34f1",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c6c9ff41-6637-44ca-a552-c6528a077d10",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ACT",
+      "code": "America/Eirunepe",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Acre Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c6e7e081-8ffd-4cf0-88de-2c075ba2da84",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Sao_Paulo",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Brasília Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c6e838d8-1616-4617-a812-27efb456d375",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SRET",
+      "code": "Asia/Srednekolymsk",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Srednekolymsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c6f3f2b6-e2a7-4870-be1d-8a58037ae299",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Recife",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Brasília Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c8071fec-95b6-4728-8f8b-dfc1f903efb0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PYST",
+      "code": "America/Asuncion",
+      "country": "c9b86a9f-cb63-43b6-ba13-8549ded9d0e7",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Paraguay Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c84dfaeb-d129-474f-907d-5e09d346632c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Kentucky/Louisville",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c982a2c5-37ab-4f08-93ad-1f14ba4cbea3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "QYZT",
+      "code": "Asia/Qyzylorda",
+      "country": "77e4c700-1dfd-4f74-ae5f-8954a8ae9fe4",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Qyzylorda Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "c9f25820-cfc6-4587-824b-8a51158fe9cc",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SAKT",
+      "code": "Asia/Sakhalin",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Sakhalin Island Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ca8f56de-0fce-4f6a-bcaf-70c4a7720ec6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Guatemala",
+      "country": "b7ff19d6-52ec-469b-9826-0f6c72a5d33a",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "cb4a5f0a-da02-4ed6-94a9-86294ca8130c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CAT",
+      "code": "Africa/Gaborone",
+      "country": "4df51f0b-07b0-49f0-8ccb-926032b2facc",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Central Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "cc362a9f-db97-4e54-970f-6e25cb395500",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "YAKT",
+      "code": "Asia/Khandyga",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Yakutsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ccbcadd1-2021-4f87-9369-41ff4f21fc36",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AEDT",
+      "code": "Australia/Melbourne",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Australian Eastern Daylight Saving Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "cd601f1f-a0f4-4718-aa48-22ac6e833c69",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Europe/London",
+      "country": "b6bfbb90-995a-415b-8093-ed89d0386e93",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "cdcfed9b-52aa-46cf-818f-2472145af860",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Zurich",
+      "country": "64c7babb-ff59-4066-90ae-913ba166c41c",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "cef0f93a-78a8-4372-8d88-575b9d3905a4",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Banjul",
+      "country": "31d2dabe-6ba5-4676-b868-28ef3dcef9b8",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "cf53524e-77f3-4e75-a48e-2a33eaaa121f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "LHST",
+      "code": "Australia/Lord_Howe",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Lord Howe Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "cf93e4bd-ea41-4882-89bf-64355280380f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Lome",
+      "country": "53d1352e-5649-4225-91ea-bc54725da663",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "cfa53566-cce8-4353-a1b6-bd275de7882b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Nipigon",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d02fb49c-f1b6-4c54-8d82-6e639f66d041",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GST",
+      "code": "Asia/Muscat",
+      "country": "1f3fcf11-ff06-4dc9-9256-cda58d349d33",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Gulf Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d118c454-1f75-49df-9af0-7d1e920d9493",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AMT",
+      "code": "America/Boa_Vista",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Amazon Time (Brazil)[3"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d17c74f0-5592-4007-8391-a90af12e14ff",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SST",
+      "code": "Pacific/Pago_Pago",
+      "country": "4ca4aca6-97b2-4134-a9cd-185e047aa3c5",
+      "utc_offset": -39600,
+      "utc_offset_name": "UTC-11:00",
+      "name": "Samoa Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d3cfd416-b81e-4622-ba87-b46bcd1297a9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MSD",
+      "code": "Europe/Saratov",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Moscow Daylight Time+4"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d4412796-1dc1-42d3-87a7-ee3843a5322b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Brussels",
+      "country": "9ad9811b-c5cf-4b89-8f1d-c7cc1aca1350",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d4a3bdb6-f062-4e16-803e-876ff0842da5",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Ndjamena",
+      "country": "8f22dd6f-e168-4c62-8d00-1296dd8c718a",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d66bf61c-88db-442f-9d87-92a3756b07f4",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PHOT",
+      "code": "Pacific/Enderbury",
+      "country": "27241636-33e3-4a66-ac9f-9d4f87422642",
+      "utc_offset": 46800,
+      "utc_offset_name": "UTC+13:00",
+      "name": "Phoenix Island Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d675bf08-97c5-4afb-8d21-adcdb436703a",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MVT",
+      "code": "Indian/Maldives",
+      "country": "8b149ce7-a5e6-4aca-aa9b-ac5e6339dca9",
+      "utc_offset": 18000,
+      "utc_offset_name": "UTC+05:00",
+      "name": "Maldives Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d6db4193-3889-45a2-abd8-dab89af6a180",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ULAT",
+      "code": "Asia/Ulaanbaatar",
+      "country": "d7938195-79ac-416a-94ab-c3e9216553c4",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Ulaanbaatar Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d7185595-4a9f-48bb-8b57-9b38afb451e8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Martinique",
+      "country": "e74fd6b0-6b26-4045-97cf-6aa74e890512",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d737cb06-b981-4dcf-8dcb-50890450e43e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Indian/Antananarivo",
+      "country": "91953c26-8cc8-4bd8-8702-3b1ed9343503",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d741933a-ab0e-4b8d-9611-3a9c65e739fa",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AKST",
+      "code": "America/Juneau",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -32400,
+      "utc_offset_name": "UTC-09:00",
+      "name": "Alaska Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "d9fbd330-ab03-4c15-ac87-f2fc601c1df0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ACWST",
+      "code": "Australia/Eucla",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 31500,
+      "utc_offset_name": "UTC+08:45",
+      "name": "Australian Central Western Standard Time (Unofficial)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "dafed48d-57c1-4676-af24-4abca39d53d7",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Marigot",
+      "country": "a24164ab-394a-4fab-9e9f-b3244cc4ea0b",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "db778172-a4be-4e06-a393-d3aebc8b8bfd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Puerto_Rico",
+      "country": "234edcef-f818-4cec-a3f1-f1656d2a5907",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "dc02353f-4e33-426a-b03b-ef1b25cd9f55",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AFT",
+      "code": "Asia/Kabul",
+      "country": "6524de0c-a8cb-4bf6-afac-c26d82738cdb",
+      "utc_offset": 16200,
+      "utc_offset_name": "UTC+04:30",
+      "name": "Afghanistan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "dc90a100-c88c-4cee-aa2e-8e3f7f0eee4e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Indiana/Petersburg",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "dc9884fc-095c-4e85-9ed8-df1c932164a0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Vaduz",
+      "country": "adf9b031-582b-4f90-89fb-e0d1bf3771e8",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "dcf7ce71-c220-4178-9644-d7606e0a6f64",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WIB",
+      "code": "Asia/Jakarta",
+      "country": "31efa834-10a8-40b6-9b54-9a45aed45b64",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Western Indonesian Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "dd3ecb1a-6796-4a22-bc97-3039e4328acb",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Asia/Beirut",
+      "country": "64ee1045-8cc1-4290-93ef-60e7f6a49871",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "dedeb810-57a0-43d3-a436-7f378b3acd54",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Djibouti",
+      "country": "e4cc7953-3776-4b2b-981f-6132c4db6446",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "def3184a-7038-4ff0-a667-bf8be23092ba",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Europe/Dublin",
+      "country": "e66a510b-f99e-48e4-95f1-4d93fdd78ae9",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "dfdf017b-c180-4de1-a48c-3a5466681c47",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Kiev",
+      "country": "a8df2aaf-0449-492d-b2c5-2e87eaadb685",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "e065632e-cfef-4207-89b2-4fc51d5e14ce",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "IOT",
+      "code": "Indian/Chagos",
+      "country": "43430d35-4cb1-447a-8b37-b601cf47e46c",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "Indian Ocean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "e0801679-e846-4bb2-ac8c-e549030d67e0",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Andorra",
+      "country": "008c93b7-21fb-4e5d-9164-93ec60033844",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "e4e84687-ef95-497a-a3db-5e57480d1781",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SAMT",
+      "code": "Europe/Samara",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Samara Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "e574d72c-2a26-4a70-9246-0facdb77000e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NPT",
+      "code": "Asia/Kathmandu",
+      "country": "3c324751-0428-4bf8-af45-d3a3f21c5bc5",
+      "utc_offset": 20700,
+      "utc_offset_name": "UTC+05:45",
+      "name": "Nepal Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "e5dcc5e2-9231-46f1-98dc-b79138649041",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PST",
+      "code": "America/Vancouver",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -28800,
+      "utc_offset_name": "UTC-08:00",
+      "name": "Pacific Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "e65d5d21-5f70-4117-a1bb-3105771c49dd",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Malabo",
+      "country": "7410c226-174b-4aa9-b3bd-e9d45a9fec41",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "e6933f50-96b9-41bb-a5e1-cb5b1a1b6d4e",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MSK",
+      "code": "Europe/Simferopol",
+      "country": "a8df2aaf-0449-492d-b2c5-2e87eaadb685",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "Moscow Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "e8596089-4954-4072-93ab-119f60c1c965",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Prague",
+      "country": "42542300-af36-4547-853a-10067b1c3220",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "eac4ac02-3f49-4e7e-888d-4cea8703e5b3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "BRT",
+      "code": "America/Araguaina",
+      "country": "5d848e6d-4d43-439c-b6e1-0a51fc8f3df2",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Brasília Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "eb846593-d96e-472a-a84b-3b2c68a6fe12",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Chicago",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ec0b3fed-c308-479d-a2f6-ad2702399780",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Swift_Current",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ec5b7380-009a-4bf9-bee6-c9e5bb8682a2",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "KGT",
+      "code": "Asia/Bishkek",
+      "country": "e3b44a91-9fd0-4169-85db-73ea0a7fbbc8",
+      "utc_offset": 21600,
+      "utc_offset_name": "UTC+06:00",
+      "name": "Kyrgyzstan Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ec704e39-dac3-46b5-9118-04da91775668",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Creston",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ec914173-ba44-47a0-bdd1-817164efbf7d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Riga",
+      "country": "97d9a7a6-b728-4f40-a613-9c5133685d2a",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ecba5b29-9a49-4160-a0ea-a822fc334458",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Cayman",
+      "country": "3a9ed682-8e02-4c01-a4e1-171f5086cd24",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ecf0a527-3473-4ccd-8061-bd8262f7a451",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "FJT",
+      "code": "Pacific/Fiji",
+      "country": "079e6d20-8d36-47cb-9020-3a8dbfece479",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Fiji Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ed4ebd0f-ea02-4346-9943-770352aa87d3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EST",
+      "code": "America/Iqaluit",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Eastern Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "eeffab3d-5dba-4fe4-b41c-2f0be034a3a9",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "utc",
+      "code": "Africa/Dakar",
+      "country": "a73b98f5-843c-4a38-944d-62ba63bf1bca",
+      "utc_offset": 0,
+      "utc_offset_name": "UTC±00",
+      "name": "Greenwich Mean Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "efea2ba3-29d3-442f-b0d6-7018a929cf46",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "ANAT",
+      "code": "Asia/Anadyr",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 43200,
+      "utc_offset_name": "UTC+12:00",
+      "name": "Anadyr Time[4"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f026e8b7-f08d-4f10-8df6-7d810ad6a8a1",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "NZDT",
+      "code": "Pacific/Auckland",
+      "country": "b4b24d5c-d201-4dc6-b98a-4febf0318c79",
+      "utc_offset": 46800,
+      "utc_offset_name": "UTC+13:00",
+      "name": "New Zealand Daylight Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f03daba1-b52b-4781-84cf-1df58e5e267b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PHT",
+      "code": "Asia/Manila",
+      "country": "4822c137-36df-47c3-ac59-f0bae45a7095",
+      "utc_offset": 28800,
+      "utc_offset_name": "UTC+08:00",
+      "name": "Philippine Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f0fdd5d1-15ee-4af4-be97-431150efe4e4",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "HOVT",
+      "code": "Asia/Hovd",
+      "country": "d7938195-79ac-416a-94ab-c3e9216553c4",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Hovd Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f1413065-a027-4e68-9d2d-69781150331d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Mogadishu",
+      "country": "3108d254-f47c-41c1-adbc-f69dbe40afc8",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f2d763cb-5dc9-41b9-a78b-484ae9b1341c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "SST",
+      "code": "Pacific/Midway",
+      "country": "39d5f70b-efb5-455b-8e02-f1e9509955fe",
+      "utc_offset": -39600,
+      "utc_offset_name": "UTC-11:00",
+      "name": "Samoa Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f303878f-0a45-41b6-87af-3a303b5988b1",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CLST",
+      "code": "America/Punta_Arenas",
+      "country": "189e70de-e6a7-49c3-ac3e-11e98641f0d0",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "Chile Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f3754771-6e25-428d-859c-31d2add6f634",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MST",
+      "code": "America/Denver",
+      "country": "38893f85-346b-4a10-9ef7-38c4f912bb58",
+      "utc_offset": -25200,
+      "utc_offset_name": "UTC-07:00",
+      "name": "Mountain Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f3d8b87e-7265-4e0d-ae3b-e031421a7c2c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "WAT",
+      "code": "Africa/Libreville",
+      "country": "31f9c22a-28d9-408d-a433-28c025a82424",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "West Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f43dd1f9-f0d9-4687-a032-1156b87abce8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Africa/Cairo",
+      "country": "6936c9b2-df3b-4639-b468-4bafc6dabb17",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f4528557-83ef-4249-8908-50e63d0af73c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Africa/Tunis",
+      "country": "7471fe60-cfe7-4fae-8f9e-968a10e3da26",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f4ffad49-ba93-4763-9172-3f79f7f46598",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AST",
+      "code": "America/Santo_Domingo",
+      "country": "b05f1f13-0003-40d5-b7d8-65bb48712696",
+      "utc_offset": -14400,
+      "utc_offset_name": "UTC-04:00",
+      "name": "Atlantic Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f50b8153-c72b-4b69-a5ad-6610a427e180",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Addis_Ababa",
+      "country": "dec84027-18e5-4f12-b34f-eea2b1865e98",
+      "utc_offset": 10800,
+      "utc_offset_name": "UTC+03:00",
+      "name": "East Africa Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f58b925f-d1d1-4d7b-a8d0-1ff3065e9890",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Bratislava",
+      "country": "c161452a-fd8c-4270-9b94-aae70e2d1320",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f65544cc-2b4f-496b-ae40-e83048bfa861",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CKT",
+      "code": "Pacific/Rarotonga",
+      "country": "4bd16266-7291-4897-a85a-77abe51e1276",
+      "utc_offset": -36000,
+      "utc_offset_name": "UTC-10:00",
+      "name": "Cook Island Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f656d5ed-06cb-4817-8827-ed6810e610c6",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Arctic/Longyearbyen",
+      "country": "f87b5d67-4463-4a85-9768-271e63efbe46",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f6a2e6e8-7310-4934-865f-bcf5a3cdc043",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "PONT",
+      "code": "Pacific/Pohnpei",
+      "country": "47280c2c-d994-4079-9fdc-2d78906ab3c0",
+      "utc_offset": 39600,
+      "utc_offset_name": "UTC+11:00",
+      "name": "Pohnpei Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f7a886b2-e34f-4592-bd69-58068fbac804",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EAT",
+      "code": "Africa/Khartoum",
+      "country": "dc0fa778-c13a-4212-98d6-fa9ddd6fe4c5",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern African Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f89ab0cb-5d0c-4459-aa70-19792e5cddb8",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Belgrade",
+      "country": "713a11c3-5598-4717-a134-e271b2aae121",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "f8c808fe-315a-48d4-a006-019877ce474f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EASST",
+      "code": "Pacific/Easter",
+      "country": "189e70de-e6a7-49c3-ac3e-11e98641f0d0",
+      "utc_offset": -18000,
+      "utc_offset_name": "UTC-05:00",
+      "name": "Easter Island Summer Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "faf6513e-e208-4ac8-ada0-7317ad58bb63",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Europe/Amsterdam",
+      "country": "226b2e74-d6e3-41cc-b45b-ca4d5ae80e16",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fb568040-b7c3-4c68-805e-aa72b17b4a3d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Bucharest",
+      "country": "27164359-b554-4cc0-9f90-14394cf79008",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fc15b5cf-f89e-4ebc-af0b-6b2019fb4b8d",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GST",
+      "code": "Atlantic/South_Georgia",
+      "country": "6b3383ff-dd4a-4586-86b7-424d288dfdd3",
+      "utc_offset": -7200,
+      "utc_offset_name": "UTC-02:00",
+      "name": "South Georgia and the South Sandwich Islands Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fc240aca-b150-4637-8ec2-8b9413f30b74",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "MUT",
+      "code": "Indian/Mauritius",
+      "country": "174d31a4-4268-4855-bfbd-a3aa3d26db88",
+      "utc_offset": 14400,
+      "utc_offset_name": "UTC+04:00",
+      "name": "Mauritius Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fc2e9d16-c61f-4e58-9e57-ed99d8ce514c",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CXT",
+      "code": "Indian/Christmas",
+      "country": "a8ed4b98-4b3f-4749-a799-a7962012c2d0",
+      "utc_offset": 25200,
+      "utc_offset_name": "UTC+07:00",
+      "name": "Christmas Island Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fc56bf68-1c63-4f38-bec0-85b70c611211",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "EET",
+      "code": "Europe/Sofia",
+      "country": "4aa93a05-6e83-4013-b0a1-60ec547ada32",
+      "utc_offset": 7200,
+      "utc_offset_name": "UTC+02:00",
+      "name": "Eastern European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fd071bc3-c854-4636-b759-d2bc73d1788f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "YAKT",
+      "code": "Asia/Chita",
+      "country": "b49f556f-9347-4c14-88d7-7807b217b5eb",
+      "utc_offset": 32400,
+      "utc_offset_name": "UTC+09:00",
+      "name": "Yakutsk Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fd3d7968-1a5c-4bd0-bb50-0762e3f9817f",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "AEST",
+      "code": "Australia/Lindeman",
+      "country": "03cc2e37-9609-417d-9692-445a4b652490",
+      "utc_offset": 36000,
+      "utc_offset_name": "UTC+10:00",
+      "name": "Australian Eastern Standard Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fdfb11b5-9e69-460b-8a10-c34ffec81112",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Belize",
+      "country": "c8d73b90-741e-4d1f-af99-2b39eb035bd5",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "fe57a9fe-ddb3-481e-a3ad-c21eb790ab9b",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CET",
+      "code": "Africa/Ceuta",
+      "country": "cff45958-8b22-4c3e-a541-b78a57f686ed",
+      "utc_offset": 3600,
+      "utc_offset_name": "UTC+01:00",
+      "name": "Central European Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ffbbb940-a69d-48dd-86c8-630ba5271253",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "GFT",
+      "code": "America/Cayenne",
+      "country": "ec81e6ff-5280-4cf1-9ff9-224afbf51597",
+      "utc_offset": -10800,
+      "utc_offset_name": "UTC-03:00",
+      "name": "French Guiana Time"
+    }
+  },
+  {
+    "model": "address.timezone",
+    "pk": "ffe14c06-51b5-4dc5-a955-838971a3acd3",
+    "fields": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "deleted_at": null,
+      "abbreviation": "CST",
+      "code": "America/Regina",
+      "country": "9bf678dc-d69b-452a-8e7f-9b8770d4ba9a",
+      "utc_offset": -21600,
+      "utc_offset_name": "UTC-06:00",
+      "name": "Central Standard Time (North America)"
+    }
+  }
+]
