@@ -1,10 +1,10 @@
 import datetime
 import logging
-from typing import Type, TypeVar, Optional, Union
+from typing import Type, TypeVar, Optional
 from uuid import UUID
 
 import jsonschema
-from django.core.exceptions import PermissionDenied, ValidationError
+from django.core.exceptions import PermissionDenied
 from django.db.models import Model as DjangoModel
 from django.db.models.query import QuerySet as DjangoQuerySet
 from django.utils.timezone import now
@@ -65,7 +65,7 @@ class OrganizationService:
             or not issubclass(organization_class, BaseOrganization)
             or not issubclass(user_class, DjangoModel)
         ):
-            raise ValidationError
+            raise ValueError
 
         self._invitation_model = invitation_class
         self._member_model = member_class
@@ -78,7 +78,7 @@ class OrganizationService:
         permissions_policy: Optional[dict] = None,
     ) -> None:
         if permissions_policy is None:
-            raise ValidationError
+            raise ValueError
 
         try:
             jsonschema.validate(
@@ -86,44 +86,37 @@ class OrganizationService:
                 schema=PERMISSIONS_POLICY_SCHEMA,
             )
 
-        except jsonschema.ValidationError:
-            raise ValidationError
+        except jsonschema.ValueError:
+            raise ValueError
 
     def _validate_instances(
         self: 'OrganizationService',
         *,
+        id: Optional[str] = None,
         invitation: Optional[BaseInvitation] = None,
         member: Optional[BaseMember] = None,
         organization: Optional[BaseOrganization] = None,
         user: Optional[User] = None,
-        uuid: Union[str, UUID, None] = None,
     ) -> None:
         if invitation is not None:
             if not isinstance(invitation, self._invitation_model):
-                raise ValidationError
+                raise ValueError
 
         if member is not None:
             if not isinstance(member, self._member_model):
-                raise ValidationError
+                raise ValueError
 
         if organization is not None:
             if not isinstance(organization, self._organization_model):
-                raise ValidationError
+                raise ValueError
 
         if user is not None:
             if not isinstance(user, self._user_model):
-                raise ValidationError
+                raise ValueError
 
-        if uuid is not None:
-            if not isinstance(uuid, (str, UUID)):
-                raise ValidationError
-
-            if isinstance(uuid, str):
-                try:
-                    UUID(uuid)
-
-                except ValueError:
-                    raise ValidationError
+        if id is not None:
+            if not isinstance(id, str):
+                raise ValueError
 
     def _check_user_permission(
         self: 'OrganizationService',
@@ -133,7 +126,7 @@ class OrganizationService:
         user: Optional[User] = None,
     ) -> bool:
         if not action or organization is None or user is None:
-            raise ValidationError
+            raise ValueError
 
         permissions_policy = organization.permissions_policy or {'version': 0}
         self._validate_permissions_policy(permissions_policy=permissions_policy)
@@ -183,7 +176,7 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> DjangoQuerySet[BaseOrganization]:
         if organization is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(organization=organization, user=request_user)
         self._check_user_permission(
@@ -203,15 +196,15 @@ class OrganizationService:
     def get_organization(
         self: 'OrganizationService',
         *,
-        id: Optional[UUID] = None,
+        id: Optional[str] = None,
         request_user: Optional[User] = None,
     ) -> Optional[BaseOrganization]:
         if id is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
-        self._validate_instances(user=request_user, uuid=id)
+        self._validate_instances(user=request_user, id=id)
         queryset = self._organization_model.objects.all()
-        queryset = queryset.filter(id=id)
+        queryset = queryset.filter(id=UUID(id))
         queryset = queryset.select_related('owner', 'super_organization')
         queryset = queryset.prefetch_related(
             'member_set',
@@ -234,7 +227,7 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> BaseOrganization:
         if organization is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(organization=organization, user=request_user)
         self._check_user_permission(
@@ -253,7 +246,7 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> BaseOrganization:
         if request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(user=request_user)
         organization = self._organization_model.objects.create(owner_id=request_user.id)
@@ -266,7 +259,7 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> BaseOrganization:
         if organization is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(organization=organization, user=request_user)
         self._check_user_permission(
@@ -285,7 +278,7 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> BaseOrganization:
         if organization is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(organization=organization, user=request_user)
         self._check_user_permission(
@@ -304,7 +297,7 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> DjangoQuerySet[BaseInvitation]:
         if organization is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(organization=organization, user=request_user)
         self._check_user_permission(
@@ -334,7 +327,7 @@ class OrganizationService:
             or organization is None
             or request_user is None
         ):
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(organization=organization, user=request_user)
         self._check_user_permission(
@@ -367,12 +360,12 @@ class OrganizationService:
             or request_user is None
             or not isinstance(permission_level, int)
         ):
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(invitation=invitation, user=request_user)
 
         if invitation.status != InvitationStatus.PENDING.value:  # type: ignore
-            raise ValidationError
+            raise ValueError
 
         self._check_user_permission(
             action='update_invitation_permission',
@@ -391,12 +384,12 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> BaseInvitation:
         if invitation is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(invitation=invitation, user=request_user)
 
         if invitation.status != InvitationStatus.PENDING.value:  # type: ignore
-            raise ValidationError
+            raise ValueError
 
         self._check_user_permission(
             action='cancel_invitation',
@@ -415,12 +408,12 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> BaseMember:
         if invitation is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(invitation=invitation, user=request_user)
 
         if invitation.status != InvitationStatus.PENDING.value:  # type: ignore
-            raise ValidationError
+            raise ValueError
 
         invitation.status = InvitationStatus.ACCEPTED.value  # type: ignore
         invitation.save(update_fields=['status'])
@@ -440,12 +433,12 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> BaseInvitation:
         if invitation is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(invitation=invitation, user=request_user)
 
         if invitation.status != InvitationStatus.PENDING.value:  # type: ignore
-            raise ValidationError
+            raise ValueError
 
         invitation.status = InvitationStatus.DECLINED.value  # type: ignore
         invitation.save(update_fields=['status'])
@@ -490,14 +483,14 @@ class OrganizationService:
     def get_member(
         self: 'OrganizationService',
         *,
-        id: Optional[UUID] = None,
+        id: Optional[str] = None,
         organization: Optional[BaseOrganization] = None,
         request_user: Optional[User] = None,
     ) -> Optional[BaseMember]:
         if id is None or request_user is None:
-            raise ValidationError
+            raise ValueError
 
-        self._validate_instances(organization=organization, user=request_user, uuid=id)
+        self._validate_instances(organization=organization, user=request_user, id=id)
 
         if organization is not None:
             queryset = organization.member_set.all()
@@ -505,7 +498,7 @@ class OrganizationService:
         else:
             queryset = self._member_model.objects.all()
 
-        queryset = queryset.filter(id=id)
+        queryset = queryset.filter(id=UUID(id))
         queryset = queryset.filter(deleted_at__isnull=True)
         queryset = queryset.select_related('invitation', 'organization', 'user')
 
@@ -530,7 +523,7 @@ class OrganizationService:
         user: Optional[User] = None,
     ) -> BaseMember:
         if organization is None or user is None or not user.is_authenticated:
-            raise ValidationError
+            raise ValueError
 
         kwargs = {
             'organization_id': organization.id,
@@ -554,7 +547,7 @@ class OrganizationService:
             or request_user is None
             or not isinstance(permission_level, int)
         ):
-            raise ValidationError
+            raise ValueError
 
         self._validate_instances(member=member, user=request_user)
 
@@ -572,7 +565,7 @@ class OrganizationService:
             and member.user_id == member.organization.owner_id
         ):
             if new_owner is None:
-                raise ValidationError
+                raise ValueError
 
             self._validate_instances(user=new_owner)
             queryset = member.organization.member_set.all()
@@ -586,7 +579,7 @@ class OrganizationService:
                 member.organization.save(update_fields=['owner'])
 
             else:
-                raise ValidationError
+                raise ValueError
 
         member.permission_level = permission_level
         member.save(update_fields=['permission_level'])
