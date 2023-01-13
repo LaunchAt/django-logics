@@ -486,7 +486,7 @@ class OrganizationService:
         id: Optional[str] = None,
         organization: Optional[BaseOrganization] = None,
         request_user: Optional[User] = None,
-        queryset: Optional[DjangoQuerySet[BaseMember]] = None
+        queryset: Optional[DjangoQuerySet[BaseMember]] = None,
     ) -> Optional[BaseMember]:
         if id is None or request_user is None:
             raise ValueError
