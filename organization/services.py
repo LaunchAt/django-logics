@@ -494,25 +494,34 @@ class OrganizationService:
         organization: Optional[BaseOrganization] = None,
         request_user: Optional[User] = None,
     ) -> Optional[BaseMember]:
-        if id is None or organization is None or request_user is None:
+        if id is None or request_user is None:
             raise ValidationError
 
         self._validate_instances(organization=organization, user=request_user, uuid=id)
-        self._check_user_permission(
-            action='get_member',
-            organization=organization,
-            user=request_user,
-        )
-        queryset = organization.member_set.all()
+
+        if organization is not None:
+            queryset = organization.member_set.all()
+
+        else:
+            queryset = self._member_model.objects.all()
+
         queryset = queryset.filter(id=id)
+        queryset = queryset.filter(deleted_at__isnull=True)
         queryset = queryset.select_related('invitation', 'organization', 'user')
 
         try:
             member = queryset.get()
-            return member
 
         except self._member_model.DoesNotExist:
             return None
+
+        else:
+            self._check_user_permission(
+                action='get_member',
+                organization=organization or member.organization,
+                user=request_user,
+            )
+            return member
 
     def create_owner(
         self: 'OrganizationService',
