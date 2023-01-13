@@ -1,6 +1,6 @@
 import datetime
 import logging
-from typing import Type, TypeVar, Union
+from typing import Type, TypeVar, Optional, Union
 from uuid import UUID
 
 import jsonschema
@@ -50,10 +50,10 @@ class OrganizationService:
     def __init__(
         self: 'OrganizationService',
         *,
-        invitation_class: Union[Type[BaseInvitation], None] = None,
-        member_class: Union[Type[BaseMember], None] = None,
-        organization_class: Union[Type[BaseOrganization], None] = None,
-        user_class: Union[Type[User], None] = None,
+        invitation_class: Optional[Type[BaseInvitation]] = None,
+        member_class: Optional[Type[BaseMember]] = None,
+        organization_class: Optional[Type[BaseOrganization]] = None,
+        user_class: Optional[Type[User]] = None,
     ) -> None:
         if (
             invitation_class is None
@@ -75,7 +75,7 @@ class OrganizationService:
     def _validate_permissions_policy(
         self: 'OrganizationService',
         *,
-        permissions_policy: Union[dict, None] = None,
+        permissions_policy: Optional[dict] = None,
     ) -> None:
         if permissions_policy is None:
             raise ValidationError
@@ -92,10 +92,10 @@ class OrganizationService:
     def _validate_instances(
         self: 'OrganizationService',
         *,
-        invitation: Union[BaseInvitation, None] = None,
-        member: Union[BaseMember, None] = None,
-        organization: Union[BaseOrganization, None] = None,
-        user: Union[User, None] = None,
+        invitation: Optional[BaseInvitation] = None,
+        member: Optional[BaseMember] = None,
+        organization: Optional[BaseOrganization] = None,
+        user: Optional[User] = None,
         uuid: Union[str, UUID, None] = None,
     ) -> None:
         if invitation is not None:
@@ -128,9 +128,9 @@ class OrganizationService:
     def _check_user_permission(
         self: 'OrganizationService',
         *,
-        action: Union[str, None] = None,
-        organization: Union[BaseOrganization, None] = None,
-        user: Union[User, None] = None,
+        action: Optional[str] = None,
+        organization: Optional[BaseOrganization] = None,
+        user: Optional[User] = None,
     ) -> bool:
         if not action or organization is None or user is None:
             raise ValidationError
@@ -179,8 +179,8 @@ class OrganizationService:
     def get_sub_organization_set(
         self: 'OrganizationService',
         *,
-        organization: Union[BaseOrganization, None] = None,
-        request_user: Union[User, None] = None,
+        organization: Optional[BaseOrganization] = None,
+        request_user: Optional[User] = None,
     ) -> DjangoQuerySet[BaseOrganization]:
         if organization is None or request_user is None:
             raise ValidationError
@@ -203,9 +203,9 @@ class OrganizationService:
     def get_organization(
         self: 'OrganizationService',
         *,
-        id: Union[UUID, None] = None,
-        request_user: Union[User, None] = None,
-    ) -> Union[BaseOrganization, None]:
+        id: Optional[UUID] = None,
+        request_user: Optional[User] = None,
+    ) -> Optional[BaseOrganization]:
         if id is None or request_user is None:
             raise ValidationError
 
@@ -229,9 +229,9 @@ class OrganizationService:
     def update_organization_policy(
         self: 'OrganizationService',
         *,
-        permissions_policy: Union[dict, None] = None,
-        organization: Union[BaseOrganization, None] = None,
-        request_user: Union[User, None] = None,
+        permissions_policy: Optional[dict] = None,
+        organization: Optional[BaseOrganization] = None,
+        request_user: Optional[User] = None,
     ) -> BaseOrganization:
         if organization is None or request_user is None:
             raise ValidationError
@@ -250,7 +250,7 @@ class OrganizationService:
     def create_organization(
         self: 'OrganizationService',
         *,
-        request_user: Union[User, None] = None,
+        request_user: Optional[User] = None,
     ) -> BaseOrganization:
         if request_user is None:
             raise ValidationError
@@ -262,8 +262,8 @@ class OrganizationService:
     def create_sub_organization(
         self: 'OrganizationService',
         *,
-        organization: Union[BaseOrganization, None] = None,
-        request_user: Union[User, None] = None,
+        organization: Optional[BaseOrganization] = None,
+        request_user: Optional[User] = None,
     ) -> BaseOrganization:
         if organization is None or request_user is None:
             raise ValidationError
@@ -281,8 +281,8 @@ class OrganizationService:
     def delete_organization(
         self: 'OrganizationService',
         *,
-        organization: Union[BaseOrganization, None] = None,
-        request_user: Union[User, None] = None,
+        organization: Optional[BaseOrganization] = None,
+        request_user: Optional[User] = None,
     ) -> BaseOrganization:
         if organization is None or request_user is None:
             raise ValidationError
@@ -300,8 +300,8 @@ class OrganizationService:
     def get_invitation_set(
         self: 'OrganizationService',
         *,
-        organization: Union[BaseOrganization, None] = None,
-        request_user: Union[User, None] = None,
+        organization: Optional[BaseOrganization] = None,
+        request_user: Optional[User] = None,
     ) -> DjangoQuerySet[BaseInvitation]:
         if organization is None or request_user is None:
             raise ValidationError
@@ -322,11 +322,11 @@ class OrganizationService:
     def create_invitation(
         self: 'OrganizationService',
         *,
-        email: Union[str, None] = None,
-        expires_at: Union[datetime.date, None] = None,
-        organization: Union[BaseOrganization, None] = None,
-        permission_level: Union[int, None] = None,
-        request_user: Union[User, None] = None,
+        email: Optional[str] = None,
+        expires_at: Optional[datetime.date] = None,
+        organization: Optional[BaseOrganization] = None,
+        permission_level: Optional[int] = None,
+        request_user: Optional[User] = None,
     ) -> BaseInvitation:
         if (
             email is None
@@ -358,9 +358,9 @@ class OrganizationService:
     def update_invitation_permission(
         self: 'OrganizationService',
         *,
-        invitation: Union[BaseInvitation, None] = None,
-        permission_level: Union[int, None] = None,
-        request_user: Union[User, None] = None,
+        invitation: Optional[BaseInvitation] = None,
+        permission_level: Optional[int] = None,
+        request_user: Optional[User] = None,
     ) -> BaseInvitation:
         if (
             invitation is None
@@ -387,8 +387,8 @@ class OrganizationService:
     def cancel_invitation(
         self: 'OrganizationService',
         *,
-        invitation: Union[BaseInvitation, None] = None,
-        request_user: Union[User, None] = None,
+        invitation: Optional[BaseInvitation] = None,
+        request_user: Optional[User] = None,
     ) -> BaseInvitation:
         if invitation is None or request_user is None:
             raise ValidationError
@@ -411,8 +411,8 @@ class OrganizationService:
     def accept_invitation(
         self: 'OrganizationService',
         *,
-        invitation: Union[BaseInvitation, None] = None,
-        request_user: Union[User, None] = None,
+        invitation: Optional[BaseInvitation] = None,
+        request_user: Optional[User] = None,
     ) -> BaseMember:
         if invitation is None or request_user is None:
             raise ValidationError
@@ -436,8 +436,8 @@ class OrganizationService:
     def decline_invitation(
         self: 'OrganizationService',
         *,
-        invitation: Union[BaseInvitation, None] = None,
-        request_user: Union[User, None] = None,
+        invitation: Optional[BaseInvitation] = None,
+        request_user: Optional[User] = None,
     ) -> BaseInvitation:
         if invitation is None or request_user is None:
             raise ValidationError
@@ -465,8 +465,8 @@ class OrganizationService:
     def get_member_set(
         self: 'OrganizationService',
         *,
-        organization: Union[BaseOrganization, None] = None,
-        request_user: Union[User, None] = None,
+        organization: Optional[BaseOrganization] = None,
+        request_user: Optional[User] = None,
     ) -> DjangoQuerySet[BaseMember]:
         if organization is None or request_user is None:
             raise ValidationError
@@ -484,10 +484,10 @@ class OrganizationService:
     def get_member(
         self: 'OrganizationService',
         *,
-        id: Union[UUID, None] = None,
-        organization: Union[BaseOrganization, None] = None,
-        request_user: Union[User, None] = None,
-    ) -> Union[BaseMember, None]:
+        id: Optional[UUID] = None,
+        organization: Optional[BaseOrganization] = None,
+        request_user: Optional[User] = None,
+    ) -> Optional[BaseMember]:
         if id is None or organization is None or request_user is None:
             raise ValidationError
 
@@ -511,10 +511,10 @@ class OrganizationService:
     def update_member_permission(
         self: 'OrganizationService',
         *,
-        member: Union[BaseMember, None] = None,
-        new_owner: Union[User, None] = None,
-        permission_level: Union[int, None] = None,
-        request_user: Union[User, None] = None,
+        member: Optional[BaseMember] = None,
+        new_owner: Optional[User] = None,
+        permission_level: Optional[int] = None,
+        request_user: Optional[User] = None,
     ) -> BaseMember:
         if (
             member is None
