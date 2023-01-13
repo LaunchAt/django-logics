@@ -139,7 +139,7 @@ class OrganizationService:
             ] = PermissionLevel.OWNER.value  # type: ignore
             queryset = self._member_model.objects.filter(**kwargs)
 
-            if not queryset.filter(deleted_at__isnull=True).exists():
+            if not queryset.exists():
                 raise PermissionDenied
 
         elif version == 1:
@@ -152,7 +152,7 @@ class OrganizationService:
                     kwargs['permission_level__gte'] = permission_level
                     queryset = self._member_model.objects.filter(**kwargs)
 
-                    if not queryset.filter(deleted_at__isnull=True).exists():
+                    if not queryset.exists():
                         raise PermissionDenied
 
         raise PermissionDenied
@@ -486,24 +486,27 @@ class OrganizationService:
         id: Optional[str] = None,
         organization: Optional[BaseOrganization] = None,
         request_user: Optional[User] = None,
+        queryset: Optional[DjangoQuerySet[BaseMember]] = None
     ) -> Optional[BaseMember]:
         if id is None or request_user is None:
             raise ValueError
 
         self._validate_instances(organization=organization, user=request_user, id=id)
 
-        if organization is not None:
-            queryset = organization.member_set.all()
+        if queryset is not None:
+            member_set = queryset
+
+        elif organization is not None:
+            member_set = organization.member_set.all()
 
         else:
-            queryset = self._member_model.objects.all()
+            member_set = self._member_model.objects.all()
 
-        queryset = queryset.filter(id=UUID(id))
-        queryset = queryset.filter(deleted_at__isnull=True)
-        queryset = queryset.select_related('invitation', 'organization', 'user')
+        member_set = member_set.filter(id=UUID(id))
+        member_set = member_set.select_related('invitation', 'organization', 'user')
 
         try:
-            member = queryset.get()
+            member = member_set.get()
 
         except self._member_model.DoesNotExist:
             return None
