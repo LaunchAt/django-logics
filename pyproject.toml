@@ -33,7 +33,11 @@ classifiers = [
     "Topic :: Internet :: WWW/HTTP",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-packages = [{ include = "organization" }]
+packages = [
+    { include = "address" },
+    { include = "media" },
+    { include = "organization" },
+]
 include = []
 exclude = []
 
