@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-13 02:06+0900\n"
+"POT-Creation-Date: 2023-01-13 19:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,34 +18,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: media/admin.py:12
+#: admin.py:12
 msgid "external media"
 msgstr "外部 メディア"
 
-#: media/admin.py:13 media/models.py:31
+#: admin.py:13 models.py:35
 msgid "file"
 msgstr "ファイル"
 
-#: media/admin.py:26
+#: admin.py:26
 msgid "url"
 msgstr "URL"
 
-#: media/apps.py:7 media/models.py:46 media/models.py:47
-msgid "media"
-msgstr "メディア"
+#: apps.py:7
+msgid "media managar"
+msgstr "メディア管理"
 
-#: media/models.py:17
+#: models.py:22
 msgid "title"
 msgstr "タイトル"
 
-#: media/models.py:22
+#: models.py:27
 msgid "external url"
 msgstr "外部 URL"
 
-#: media/models.py:24
+#: models.py:29
 msgid "file location"
 msgstr "ファイルロケーション"
 
-#: media/models.py:29
+#: models.py:34
 msgid "file name"
 msgstr "ファイル名"
+
+#: models.py:47 models.py:48
+msgid "media"
+msgstr "メディア"
