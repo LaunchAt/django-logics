@@ -508,6 +508,23 @@ class OrganizationService:
         except self._member_model.DoesNotExist:
             return None
 
+    def create_member(
+        self: 'OrganizationService',
+        *,
+        organization: Optional[BaseOrganization] = None,
+        user: Optional[User] = None,
+    ) -> BaseMember:
+        if organization is None or user is None or not user.is_authenticated:
+            raise ValidationError
+
+        kwargs = {
+            'organization_id': organization.id,
+            'permission_level': PermissionLevel.OWNER.level,
+            'user_id': user.id,
+        }
+        member = self._member_model.objects.create(**kwargs)
+        return member
+
     def update_member_permission(
         self: 'OrganizationService',
         *,
