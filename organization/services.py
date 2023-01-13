@@ -469,15 +469,21 @@ class OrganizationService:
         request_user: Optional[User] = None,
     ) -> DjangoQuerySet[BaseMember]:
         if organization is None or request_user is None:
-            raise ValidationError
+            return self._member_model.objects.none()
 
-        self._validate_instances(organization=organization, user=request_user)
-        self._check_user_permission(
-            action='get_member_set',
-            organization=organization,
-            user=request_user,
-        )
-        queryset = organization.member_set.all()
+        if organization is not None:
+            self._validate_instances(organization=organization, user=request_user)
+            self._check_user_permission(
+                action='get_member_set',
+                organization=organization,
+                user=request_user,
+            )
+            queryset = organization.member_set.all()
+
+        else:
+            self._validate_instances(user=request_user)
+            queryset = request_user.member_set.all()
+
         queryset = queryset.select_related('invitation', 'organization', 'user')
         return queryset
 
