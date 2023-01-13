@@ -296,16 +296,23 @@ class OrganizationService:
         organization: Optional[BaseOrganization] = None,
         request_user: Optional[User] = None,
     ) -> DjangoQuerySet[BaseInvitation]:
-        if organization is None or request_user is None:
-            raise ValueError
+        if organization is None and request_user is None:
+            return self._invitation_model.objects.none()
 
-        self._validate_instances(organization=organization, user=request_user)
-        self._check_user_permission(
-            action='get_invitation_set',
-            organization=organization,
-            user=request_user,
-        )
-        queryset = organization.invitation_set.all()
+        if organization is not None:
+            self._validate_instances(organization=organization, user=request_user)
+            self._check_user_permission(
+                action='get_invitation_set',
+                organization=organization,
+                user=request_user,
+            )
+            queryset = organization.invitation_set.all()
+
+        else:
+            self._validate_instances(user=request_user)
+            queryset = self._invitation_model.objects.all()
+            queryset = queryset.filter(email=request_user.email)
+
         queryset = queryset.filter(
             status=InvitationStatus.PENDING.value,  # type: ignore
         )
