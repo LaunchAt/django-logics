@@ -461,7 +461,7 @@ class OrganizationService:
         organization: Optional[BaseOrganization] = None,
         request_user: Optional[User] = None,
     ) -> DjangoQuerySet[BaseMember]:
-        if organization is None or request_user is None:
+        if organization is None and request_user is None:
             return self._member_model.objects.none()
 
         if organization is not None:
