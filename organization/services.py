@@ -508,7 +508,7 @@ class OrganizationService:
         except self._member_model.DoesNotExist:
             return None
 
-    def create_member(
+    def create_owner(
         self: 'OrganizationService',
         *,
         organization: Optional[BaseOrganization] = None,
