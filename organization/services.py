@@ -537,7 +537,7 @@ class OrganizationService:
 
         kwargs = {
             'organization_id': organization.id,
-            'permission_level': PermissionLevel.OWNER.level,
+            'permission_level': PermissionLevel.OWNER.value,  # type: ignore
             'user_id': user.id,
         }
         member = self._member_model.objects.create(**kwargs)
