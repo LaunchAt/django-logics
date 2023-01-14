@@ -47,6 +47,8 @@ PERMISSIONS_POLICY_SCHEMA = {
 
 
 class OrganizationService:
+    DEFAULT_PERMISSIONS_POLICY = { 'version': 0 }
+
     def __init__(
         self: 'OrganizationService',
         *,
@@ -249,7 +251,13 @@ class OrganizationService:
             raise ValueError
 
         self._validate_instances(user=request_user)
-        organization = self._organization_model.objects.create(owner_id=request_user.id)
+        self._validate_permissions_policy(
+            permissions_policy=self.DEFAULT_PERMISSIONS_POLICY,
+        )
+        organization = self._organization_model.objects.create(
+            owner_id=request_user.id,
+            permissions_policy=self.DEFAULT_PERMISSIONS_POLICY,
+        )
         return organization
 
     def create_sub_organization(
