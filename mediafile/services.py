@@ -1,3 +1,4 @@
+from uuid import UUID
 from typing import Optional, TypeVar
 
 from django.db.models import Model as DjangoModel
@@ -9,6 +10,26 @@ User = TypeVar('User', bound=DjangoModel)
 
 class MediaFileService:
     _mediafile_model = MediaFile
+
+    def get_mediafile(
+        self: 'MediaFileService',
+        *,
+        id: Optional[str] = None,
+        request_user: Optional[User] = None,
+    ) -> Optional[MediaFile]:
+        if id is None or request_user is None:
+            raise ValueError
+
+        queryset = self._mediafile_model.objects.all()
+        queryset = queryset.filter(id=UUID(id))
+        queryset = queryset.filter(owner_id=request_user.id)
+        queryset = queryset.select_related('owner')
+
+        try:
+            return queryset.get()
+
+        except self._mediafile_model.DoesNotExist:
+            return None
 
     def put(
         self: 'MediaFileService',
