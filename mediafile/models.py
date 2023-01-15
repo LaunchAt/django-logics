@@ -7,7 +7,7 @@ from django.utils.translation import gettext_lazy as _
 
 from model_utils.base.models import BaseModel
 
-USER_MODEL = getattr(settings, 'MEDIA_USER_MODEL', settings.AUTH_USER_MODEL)
+USER_MODEL = getattr(settings, 'MEDIAFILE_USER_MODEL', settings.AUTH_USER_MODEL)
 
 
 class MediaFile(BaseModel):
