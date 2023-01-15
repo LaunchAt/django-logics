@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'model_utils',
     'organization',
     'address',
-    'media_managar',
+    'mediafile',
 ]
 
 MIDDLEWARE = [

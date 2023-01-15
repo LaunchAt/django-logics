@@ -35,7 +35,7 @@ classifiers = [
 ]
 packages = [
     { include = "address" },
-    { include = "media_managar" },
+    { include = "mediafile" },
     { include = "organization" },
 ]
 include = []

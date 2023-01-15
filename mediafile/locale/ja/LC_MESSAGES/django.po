@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-13 19:46+0900\n"
+"POT-Creation-Date: 2023-01-15 23:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,38 +18,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: admin.py:11
+msgid "base information"
+msgstr ""
+
 #: admin.py:12
-msgid "external media"
-msgstr "外部 メディア"
+msgid "external file"
+msgstr "外部 ファイル"
 
-#: admin.py:13 models.py:35
-msgid "file"
-msgstr "ファイル"
+#: admin.py:13
+msgid "uploaded file"
+msgstr "アップロードファイル"
 
-#: admin.py:26
+#: admin.py:27
 msgid "url"
 msgstr "URL"
 
-#: apps.py:7
-msgid "media managar"
-msgstr "メディア管理"
+#: apps.py:7 models.py:58 models.py:59
+msgid "media file"
+msgstr "メディアファイル"
 
-#: models.py:22
+#: models.py:25
 msgid "title"
 msgstr "タイトル"
 
-#: models.py:27
+#: models.py:30
 msgid "external url"
 msgstr "外部 URL"
 
-#: models.py:29
+#: models.py:32
 msgid "file location"
 msgstr "ファイルロケーション"
 
-#: models.py:34
+#: models.py:37
 msgid "file name"
 msgstr "ファイル名"
 
-#: models.py:47 models.py:48
-msgid "media"
-msgstr "メディア"
+#: models.py:38
+msgid "file"
+msgstr "ファイル"
+
+#: models.py:42
+msgid "owner"
+msgstr "所有者"
