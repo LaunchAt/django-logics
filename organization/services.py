@@ -157,7 +157,8 @@ class OrganizationService:
                     if not queryset.exists():
                         raise PermissionDenied
 
-        raise PermissionDenied
+        else:
+            raise PermissionDenied
 
     def get_organization_set(
         self: 'OrganizationService',
