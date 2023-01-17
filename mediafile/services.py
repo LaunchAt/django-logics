@@ -77,6 +77,9 @@ class MediaFileService:
             if title is not None:
                 mediafile.title = title
 
+            if request_user is not None:
+                mediafile.owner_id = request_user.id
+
             mediafile.external_url = ''
             mediafile.file = file
             mediafile.file_location = file_location
