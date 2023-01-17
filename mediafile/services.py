@@ -1,6 +1,7 @@
 from uuid import UUID
 from typing import Optional, TypeVar
 
+from django.core.exceptions import ObjectDoesNotExist
 from django.db.models import Model as DjangoModel
 
 from .models import MediaFile
@@ -28,7 +29,7 @@ class MediaFileService:
         try:
             return queryset.get()
 
-        except self._mediafile_model.DoesNotExist:
+        except ObjectDoesNotExist:
             return None
 
     def put(

@@ -2,6 +2,7 @@ from typing import Optional
 from uuid import UUID
 
 from address.models import Address, Country, Locality, State
+from django.core.exceptions import ObjectDoesNotExist
 from django.db.models.query import QuerySet
 from django.db.utils import IntegrityError
 
@@ -44,7 +45,7 @@ class AddressService:
         try:
             return queryset.get()
 
-        except self._country_model.DoesNotExist:
+        except ObjectDoesNotExist:
             return None
 
     def get_state_set(
@@ -78,7 +79,7 @@ class AddressService:
         try:
             return queryset.get()
 
-        except self._state_model.DoesNotExist:
+        except ObjectDoesNotExist:
             return None
 
     def get_is_state_exists(
@@ -125,7 +126,7 @@ class AddressService:
         try:
             return queryset.get()
 
-        except self._locality_model.DoesNotExist:
+        except ObjectDoesNotExist:
             return None
 
     def get_is_locality_exists(
@@ -231,7 +232,7 @@ class AddressService:
         try:
             return queryset.get()
 
-        except self._address_model.DoesNotExist:
+        except ObjectDoesNotExist:
             return None
 
     def create_address(

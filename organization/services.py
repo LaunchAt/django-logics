@@ -4,7 +4,7 @@ from typing import Type, TypeVar, Optional
 from uuid import UUID
 
 import jsonschema
-from django.core.exceptions import PermissionDenied
+from django.core.exceptions import ObjectDoesNotExist, PermissionDenied
 from django.db.models import Model as DjangoModel
 from django.db.models.query import QuerySet as DjangoQuerySet
 from django.utils.timezone import now
@@ -219,7 +219,7 @@ class OrganizationService:
             organization = queryset.get()
             return organization
 
-        except self._organization_model.DoesNotExist:
+        except ObjectDoesNotExist:
             return None
 
     def update_organization_policy(
@@ -524,7 +524,7 @@ class OrganizationService:
         try:
             member = member_set.get()
 
-        except self._member_model.DoesNotExist:
+        except ObjectDoesNotExist:
             return None
 
         else:
