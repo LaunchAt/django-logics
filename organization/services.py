@@ -324,11 +324,53 @@ class OrganizationService:
             queryset = self._invitation_model.objects.all()
             queryset = queryset.filter(email=request_user.email)
 
+        queryset = queryset.filter(expires_at__gt=now())
         queryset = queryset.filter(
             status=InvitationStatus.PENDING.value,  # type: ignore
         )
         queryset = queryset.select_related('inviter', 'member', 'organization')
         return queryset
+
+    def get_invitation(
+        self: 'OrganizationService',
+        *,
+        id: Optional[str] = None,
+        organization: Optional[BaseOrganization] = None,
+        request_user: Optional[User] = None,
+        queryset: Optional[DjangoQuerySet[BaseInvitation]] = None,
+    ) -> Optional[BaseInvitation]:
+        if id is None or request_user is None:
+            raise ValueError
+
+        self._validate_instances(organization=organization, user=request_user, id=id)
+
+        if queryset is not None:
+            invitation_set = queryset
+
+        elif organization is not None:
+            invitation_set = self._invitation_model.objects.all()
+            invitation_set = invitation_set.filter(organization_id=organization.id)
+
+        else:
+            invitation_set = self._invitation_model.objects.all()
+            invitation_set = invitation_set.filter(email=request_user.email)
+
+        invitation_set = invitation_set.filter(expires_at__gt=now())
+        invitation_set = invitation_set.filter(id=UUID(id))
+        invitation_set = invitation_set.filter(
+            status=InvitationStatus.PENDING.value,  # type: ignore
+        )
+        invitation_set = invitation_set.select_related(
+            'inviter',
+            'organization',
+            'member',
+        )
+
+        try:
+            return invitation_set.get()
+
+        except ObjectDoesNotExist:
+            return None
 
     def create_invitation(
         self: 'OrganizationService',
