@@ -187,7 +187,8 @@ class OrganizationService:
             organization=organization,
             user=request_user,
         )
-        queryset = organization.sub_organization_set.all()
+        queryset = self._organization_model.objects.all()
+        queryset = queryset.filter(super_organization_id=organization.id)
         queryset = queryset.select_related('owner', 'super_organization')
         queryset = queryset.prefetch_related(
             'member_set',
@@ -315,7 +316,8 @@ class OrganizationService:
                 organization=organization,
                 user=request_user,
             )
-            queryset = organization.invitation_set.all()
+            queryset = self._invitation_model.objects.all()
+            queryset = queryset.filter(organization_id=organization.id)
 
         else:
             self._validate_instances(user=request_user)
@@ -487,11 +489,13 @@ class OrganizationService:
                 organization=organization,
                 user=request_user,
             )
-            queryset = organization.member_set.all()
+            queryset = self._member_model.objects.all()
+            queryset = queryset.filter(organization_id=organization.id)
 
         else:
             self._validate_instances(user=request_user)
-            queryset = request_user.member_set.all()
+            queryset = self._member_model.objects.all()
+            queryset = queryset.filter(user_id=request_user.id)
 
         queryset = queryset.select_related('invitation', 'organization', 'user')
         return queryset
@@ -513,7 +517,8 @@ class OrganizationService:
             member_set = queryset
 
         elif organization is not None:
-            member_set = organization.member_set.all()
+            member_set = self._member_model.objects.all()
+            member_set = member_set.filter(organization_id=organization.id)
 
         else:
             member_set = self._member_model.objects.all()
@@ -587,7 +592,8 @@ class OrganizationService:
                 raise ValueError
 
             self._validate_instances(user=new_owner)
-            queryset = member.organization.member_set.all()
+            queryset = self._member_model.objects.all()
+            queryset = queryset.filter(organization_id=member.organization_id)
             queryset = queryset.filter(user_id=new_owner.id)
             queryset = queryset.filter(
                 permission_level=PermissionLevel.OWNER.value,  # type: ignore
