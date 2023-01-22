@@ -475,6 +475,9 @@ class OrganizationService:
         if invitation.status != InvitationStatus.PENDING.value:  # type: ignore
             raise ValueError
 
+        if invitation.expires_at <= now():
+            raise ValueError
+
         invitation.status = InvitationStatus.ACCEPTED.value  # type: ignore
         invitation.save(update_fields=['status'])
         kwargs = {
