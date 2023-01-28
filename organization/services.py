@@ -43,6 +43,17 @@ PERMISSIONS_POLICY_SCHEMA = {
 }
 
 
+# exception
+
+
+class OrganizationServiceException(Exception):
+    code = ''
+
+    def __init__(self, *args, code='', message='', object=None) -> None:
+        self.code = code
+        super().__init__(*args)
+
+
 # Service
 
 
@@ -390,6 +401,19 @@ class OrganizationService:
             raise ValueError
 
         self._validate_instances(organization=organization, user=request_user)
+
+        if self._invitation_model.objects.filter(
+            organization=organization,
+            email=email,
+        ).exists():
+            raise OrganizationServiceException(code='already_invited')
+
+        if self._member_model.objects.filter(
+            organization=organization,
+            user__email=email,
+        ).exists():
+            raise OrganizationServiceException(code='already_joined')
+
         self._check_user_permission(
             action='create_invitation',
             organization=organization,
