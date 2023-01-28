@@ -398,7 +398,7 @@ class OrganizationService:
         kwargs = {
             'email': email,
             'expires_at': expires_at,
-            'inviter': request_user.id,
+            'inviter_id': request_user.id,
             'organization_id': organization.id,
         }
 
