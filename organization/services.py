@@ -402,23 +402,42 @@ class OrganizationService:
 
         self._validate_instances(organization=organization, user=request_user)
 
-        if self._invitation_model.objects.filter(
-            organization=organization,
-            email=email,
-        ).exists():
-            raise OrganizationServiceException(code='already_invited')
-
-        if self._member_model.objects.filter(
-            organization=organization,
-            user__email=email,
-        ).exists():
-            raise OrganizationServiceException(code='already_joined')
-
         self._check_user_permission(
             action='create_invitation',
             organization=organization,
             user=request_user,
         )
+
+        if self._member_model.objects.filter(
+            organization=organization,
+            user__email=email,
+            permission_level__gt=PermissionLevel.ANONYMOUS.value,  # type: ignore
+        ).exists():
+            raise OrganizationServiceException(code='already_joined')
+
+        invitation = self._invitation_model.objects.filter(
+            organization=organization,
+            email=email,
+        ).first()
+
+        if invitation:
+            if (
+                invitation.expires_at < now()
+                or invitation.permission_level <= PermissionLevel.ANONYMOUS.value  # type: ignore
+                or invitation.status != InvitationStatus.PENDING.value  # type: ignore
+            ):
+                invitation.expires_at = expires_at
+                invitation.status = InvitationStatus.PENDING.value  # type: ignore
+
+                if permission_level:
+                    invitation.permission_level = permission_level
+
+                invitation.save()
+
+                return invitation
+
+            raise OrganizationServiceException(code='already_invited')
+
         kwargs = {
             'email': email,
             'expires_at': expires_at,
