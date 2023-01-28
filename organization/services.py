@@ -432,10 +432,40 @@ class OrganizationService:
         invitaiton = self._invitation_model.objects.create(**kwargs)
         return invitaiton
 
+    def refresh_invitation(
+        self: 'OrganizationService',
+        *,
+        invitation: Optional[BaseInvitation] = None,
+        expires_at: Optional[datetime.date] = None,
+        request_user: Optional[User] = None,
+    ) -> BaseInvitation:
+        if (
+            invitation is None
+            or request_user is None
+            or not isinstance(expires_at, datetime.date)
+        ):
+            raise ValueError
+
+        self._validate_instances(invitation=invitation, user=request_user)
+
+        if invitation.status != InvitationStatus.PENDING.value:  # type: ignore
+            raise ValueError
+
+        self._check_user_permission(
+            action='refresh_invitation',
+            organization=invitation.organization,
+            user=request_user,
+        )
+
+        invitation.expires_at = expires_at
+        invitation.save(update_fields=['expires_at'])
+        return invitation
+
     def update_invitation_permission(
         self: 'OrganizationService',
         *,
         invitation: Optional[BaseInvitation] = None,
+        expires_at: Optional[datetime.date] = None,
         permission_level: Optional[int] = None,
         request_user: Optional[User] = None,
     ) -> BaseInvitation:
