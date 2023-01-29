@@ -484,7 +484,6 @@ class OrganizationService:
         self: 'OrganizationService',
         *,
         invitation: Optional[BaseInvitation] = None,
-        expires_at: Optional[datetime.date] = None,
         permission_level: Optional[int] = None,
         request_user: Optional[User] = None,
     ) -> BaseInvitation:
